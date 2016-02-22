@@ -1,0 +1,1962 @@
+
+> skyss@1.0.0 start /Users/admin/Code/skyss
+> node ./lib/run.js
+
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+	<title>Travel suggestions from Dortledhaugen (Bergen) to Lagunen (Bergen) Monday 22 February 2016 - Travel planner for Hordaland from www.skyss.no</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find routes between stops, addresses and businesses throughout the county." />
+    <link media="screen" rel="stylesheet" title="Normal" href="/css/style.css?3.0.3.6547" />
+    <link media="screen" rel="stylesheet alternate" title="High contrast" href="/css/style.hc.css?3.0.3.6547" />
+    <link media="print" rel="stylesheet" href="/css/print.css?3.0.3.6547" />
+    <script src="/js/modernizr.js?3.0.3.6547"></script>
+</head>
+<body class="">
+<div id="container" class="ui-widget">
+<div class="tm-skipnav"><a href="#skipcontent">Skip to content</a></div>
+<div id="header">
+	<ul class="tm-header-links">
+		<li>
+            <a class="tm-header-home tm-header-active" href="/scripts/travelmagic/TravelMagicWE.dll/?lang=en">Travel planner</a>
+        </li>
+		<li>
+            <a class="tm-header-home tm-header-notactive" href="/scripts/travelmagic/TravelMagicWE.dll/?lang=en&amp;dep1=1">Departure times</a>
+        </li>
+	</ul>
+    <div class="tm-menu-top">
+        <span class="tm-theme-selector"><a href="/scripts/travelmagic/TravelMagicWE.dll/svar?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;Date=22.02.2016&amp;time=22%3A13&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR0=1&amp;GetTR1=1&amp;GetTR5=1&amp;lang=en&amp;theme=hc" class="tm-contrast-tool tm-contrast-tool-hc tm-contrast-tool-notactive">High contrast</a></span>
+        <span class="tm-size-aaa">
+            <a href="#" class="tm-size-tool">
+                <span class="tm-size-tool-xl">A</span>
+                <span class="tm-size-tool-m">A</span>
+                <span class="tm-size-tool-s">A</span>
+                <span class="tm-size-tool-aaa"><span class="tm-size-tool-text"><span class="tm-size-tool-border">Hold down the Ctrl key. Press + to enlarge or - to shrink.<br></span></span></span>
+            </a>
+        </span>
+        <span class="tm-header-mobil">
+            <a class="tm-popup" href="/scripts/travelmagic/TravelMagicWE.dll/svar?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;Date=22.02.2016&amp;time=22%3A13&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR0=1&amp;GetTR1=1&amp;GetTR5=1&amp;lang=en&amp;context=wap.xhtml">Mobile version</a>
+        </span>
+        <span class="tm-menu-languages">
+            <a href="/scripts/travelmagic/TravelMagicWE.dll/svar?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;Date=22.02.2016&amp;time=22%3A13&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR0=1&amp;GetTR1=1&amp;GetTR5=1&amp;lang=no"><span class="tm-flag tm-language-item tm-flag-no">
+                <span class="tm-language-text">NO</span>
+              </span></a><span class="tm-flag tm-language-item-sel tm-flag-sel tm-flag-selected-en">
+        <span class="tm-language-text">EN</span>
+        </span>
+        </span>
+
+    </div>
+    <div class="clearing"></div>
+
+</div>
+
+<div id="main">
+
+<!-- Her legger du inn info til forsiden -->
+<div class="errors ui-state-highlight" style="padding:8px; margin:15px 0 10px;">
+  <p style="line-height:1.2;font-weight:bold;margin:10px;">The travel planner shows several possible travel alternatives. The departures shown do not necessarily connect. Allow at least five minutes for transfers plus the time it takes to walk between stops.</p>
+</div>
+<form class="ui-widget-header tm-form " name="travelform" id="travelform" method="get" action="/scripts/travelmagic/TravelMagicWE.dll/svar">
+    <input type="hidden" name="referrer" value="" />
+    <input type="hidden" name="lang" value="en" />
+    <input type="hidden" name="dep1" value="" />
+    <input type="hidden" name="theme" value="" />
+    <!--<fieldset class="tm-form-fieldset-top">
+        <label for="dep1">Travel planner</label>
+        <input type="radio" id="dep1" name="dep1" autocomplete="off" title="Choose if search is iternary between two places." value="" checked="checked">
+        <label for="dep2">Departure times</label>
+        <input type="radio" id="dep2" name="dep1" autocomplete="off" title="Choose if search is next departure from a place." value="1">
+    </fieldset>-->
+    <fieldset class="tm-form-fieldset-main ui-widget">
+    <div class="tm-form-div-main">
+
+            <fieldset class="tm-form-block-fromto">
+            <p>
+                <span style="display:inline-block;text-align:right;"><label for="from">From</label></span>
+                <input class="tm-input-border " id="from" size="20" name="from" value="Dortledhaugen (Bergen)" type="text" title="From and to can be a street address, a stop or a location. Addresses may include a street number." placeholder="stop / address / place"
+                    data-tm-autocomplete-options='{"AutocompleteUrl":"/scripts/travelmagic/TravelMagicWE.dll/StageJSON"}' />
+            </p>
+            <p class="dep1-hide">
+                <span style="display:inline-block;text-align:right;"><label for="to">To</label></span>
+                <input class="tm-input-border " id="to" size="20" name="to" value="Lagunen (Bergen)" type="text"  title="From and to can be a street address, a stop or a location. Addresses may include a street number." placeholder="stop / address / place"
+                    data-tm-autocomplete-options='{"AutocompleteUrl":"/scripts/travelmagic/TravelMagicWE.dll/StageJSON"}' />
+            </p>
+            </fieldset>
+            <fieldset class="tm-form-block-time">
+                <legend class="ui-helper-hidden-accessible">When</legend>
+                <p>
+                    <span style="display:inline-block;">
+                        <span style="display:inline-block;text-align:right;">
+                            <label class="tm-form-label-time" style="" for="Time">Time</label>
+                        </span>
+                        <input class="tm-input-border tm-form-time-input" id="Time" name="Time"  title="Choose time of departure or arrival  " value="22:33" type="text" size="5">
+                    </span>
+                    <label class="ui-helper-hidden-accessible" for="Date">Date</label>
+                    <input class="tm-input-border tm-form-month-input" id="Date" name="Date" title="Choose date of travel" value="22.02.2016" type="text" size="10">
+
+                    <input class="tm-form-time-chk" type="checkbox" id="now" name="now"  title="Choose if arrival time is now" value="1" checked="checked">
+                    <label class="tm-form-time-now" for="now">Now</label>
+                </p>
+                <p class=" dep1-hide tm-form-avgang-ankomst">
+                    <input class="tm-form-time-radio" type="radio" id="direction1" name="direction" title="Choose if departure time" value="1" checked="checked">
+                    <label class="tm-form-time-radiolbl" for="direction1">
+                        Departure
+                    </label>
+                    <input class="tm-form-time-radio" type="radio" id="direction2" name="direction" title="Choose if arrival time" value="2">
+                    <label class="tm-form-time-radiolbl" for="direction2">
+                        Arrival
+                    </label>
+                </p>
+            </fieldset>
+            <div class="tm-fieldset-search">
+                <input type="submit" name="search" id="search" value="Search">
+            </div>
+    </div>
+
+    <div class="tm-form-div-advanced">
+        <input type="checkbox" name="adv" id="advsearch" title="Display or hide multiple search options." value="1" checked="checked">
+                <label for="advsearch">Advanced</label>
+    </div>
+
+    </fieldset>
+
+    <fieldset id="tm-form-adv" class="tm-form-fieldset-more adv  ui-widget ui-widget-content">
+    <div class="tm-form-div-more">
+        <fieldset class="tm-form-med">
+            <legend>I travel by...</legend>
+            <fieldset class="tm-form-traffictype">
+                <label for="GetTR0">
+    <input type="checkbox" id="GetTR0"  title="Choose mode of transport." name="GetTR0"
+        value="1" checked="checked">
+    Bus
+</label>
+<label for="GetTR1">
+    <input type="checkbox" id="GetTR1"  title="Choose mode of transport." name="GetTR1"
+        value="1" checked="checked">
+    Express bus
+</label>
+<label for="GetTR2">
+    <input type="checkbox" id="GetTR2"  title="Choose mode of transport." name="GetTR2"
+        value="1">
+    Airport shuttle
+</label>
+<label for="GetTR3">
+    <input type="checkbox" id="GetTR3"  title="Choose mode of transport." name="GetTR3"
+        value="1">
+    Ferry
+</label>
+<label for="GetTR4">
+    <input type="checkbox" id="GetTR4"  title="Choose mode of transport." name="GetTR4"
+        value="1">
+    Boat
+</label>
+<label for="GetTR5">
+    <input type="checkbox" id="GetTR5"  title="Choose mode of transport." name="GetTR5"
+        value="1" checked="checked">
+    Bybane
+</label>
+<label for="GetTR6">
+    <input type="checkbox" id="GetTR6"  title="Choose mode of transport." name="GetTR6"
+        value="1">
+    Train
+</label>
+<label for="GetTR7">
+    <input type="checkbox" id="GetTR7"  title="Choose mode of transport." name="GetTR7"
+        value="1">
+    Diverse
+</label>
+
+            </fieldset>
+        </fieldset>
+        <fieldset class="tm-form-via dep1-hide">
+            <legend>I travel via...</legend>
+            <span class="tm-form-via-hpl tm-inline-block">
+                <input class="tm-input-border " id="through" size="23" name="through" title="If you want to pause or further detail your trip, you may use the via box. Write the stop you want to travel via, and how long in minutes you want to pause." value="" type="text"
+                    data-tm-autocomplete-options='{"AutocompleteUrl":"/scripts/travelmagic/TravelMagicWE.dll/StageJSON","params": {"type": "1"}}' placeholder="stop" />
+            </span>
+            <span class="tm-inline-block">
+                <label class="tm-throughpause-label" for="throughpause">Stay</label>
+                <input class="tm-input-border" id="throughpause" size="3" name="throughpause"  title="Write how many minutes you want to pause your trip." type="text"
+                    value=""> <span class="tm-alpha tm-opphold">min</span>
+            </span>
+        </fieldset>
+        <fieldset style="" class="tm-form-foretrekker dep1-hide">
+            <legend>I prefer...</legend>
+            <div style="padding-left:0.5em;">
+
+                    <label class="ui-helper-hidden-accessible" style="" for="changepenalty">Priority</label>
+                    <p>
+                        <select class="tm-form-select" id="changepenalty" name="changepenalty">
+                            <option value="0">Short travel time</option>
+                            <option value="1" selected>Best route</option>
+                            <option value="2">Few transfers</option>
+                        </select>
+                    </p>
+               <div class="tm-form-overgangstid">
+                    <label class="tm-form-overgangstid-label" style="" for="changepause">Transfer time</label>
+                    <p>
+                        <select class="tm-form-select"  id="changepause" name="changepause">
+                            <option value="0" selected>Normal</option>
+                            <option value="1">Extra (min. 10 minutes)</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="tm-form-ruter dep1-show">
+            <legend>I travel with line...</legend>
+            <p>
+                <input class="tm-input-border" id="linjer" size="10" name="linjer"  title="Choose lines for use by travel planner. Separate lines by comma." type="text" value="">
+                <span class="tm-alpha">example: 24, 25</span>
+            </p>
+        </fieldset>
+        <fieldset  class="tm-form-mot dep1-show">
+            <legend>I travel towards...</legend>
+            <p>
+                <input class="tm-input-border" id="destinations" size="10" name="destinations"  title="Choose destinations for use by travel planner. Separate destinations by comma." type="text" value="">
+                <span class="tm-alpha">example: Sentrum</span>
+            </p>
+        </fieldset>
+    </div>
+    </fieldset>
+</form>
+
+
+
+<div id="result" class="ui-widget ui-widget-content" data-tm-priceurl="">
+    <div class="tm-result-top ui-widget-header ui-helper-hidden-accessible">
+        <h1 id="skipcontent" >
+            <span class="tm-header-from"><span class="tm-result-lblfrom tm-alpha">From</span> <span class="tm-result-from">Dortledhaugen (Bergen)</span></span>
+            <span class="tm-header-to"><span class="tm-result-lblto tm-alpha">To</span> <span class="tm-result-from">Lagunen (Bergen)</span></span>
+
+        </h1>
+        <span class="ui-helper-hidden-accessible"><span class="tm-result-lbltime">Time</span> <span class="tm-result-top-time">22:33</span></span>
+    </div>
+
+    <div class="tm-return-more ui-helper-reset">
+            <div class="tm-return-more-item">
+                <div class="tm-return-more-text"><a href="/scripts/travelmagic/TravelMagicWE.dll/svar?from=Lagunen+(Bergen)&amp;to=Dortledhaugen+(Bergen)&amp;direction=1&amp;Date=23.02.2016&amp;Time=00%3A33&amp;now=0&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en" class="tm-return-more-link">Return trip</a></div>
+                    <div class="ui-state-default ui-corner-all tm-return-icon" title=".ui-icon-arrow-1-e">
+                        <span class="ui-icon ui-icon-arrowreturn-1-w"></span>
+                    </div>
+
+                <div class="clearing"></div>
+            </div>
+            <div class="tm-return-more-item">
+                <div class="tm-return-more-text"><a href="/scripts/travelmagic/TravelMagicWE.dll/svar?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;Date=23.02.2016&amp;Time=07%3A42&amp;now=0&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en" class="tm-return-more-link">more</a></div>
+                    <div class="ui-state-default ui-corner-all tm-return-icon" title=".ui-icon-arrow-1-e">
+                        <span class="ui-icon ui-icon-arrow-1-e"></span>
+                    </div>
+
+                <div class="clearing"></div>
+            </div>
+    </div>
+    <div id="tm-filter"><h2 class="tm-alpha">Your choice:</h2><ul class="ui-helper-reset"><li><a href="/scripts/travelmagic/TravelMagicWE.dll/svar?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;through=&amp;throughpause=&amp;lang=en" title="clear selections">by  Bus, Express bus, Bybane</a></li></ul></div>
+
+    <h2 class="tm-alpha tm-reiseforslag-header">Monday 22 February 2016</h2>
+
+    <div class="maincontent">
+
+        <div class="tm-result-wrapper">
+<div class="tm-result-header ui-state-default ui-helper-clearfix" style="position:relative">
+    <a href="#tm-result0-content" class="tm-result-link">
+    <h3  class="ui-helper-reset">
+        <span class="ui-widget-content tm-block-a">
+            <span class="tm-result-toggle ui-icon ui-icon-plus"></span>
+        </span>
+         <span class="tm-block-b">
+
+
+            <span class="tm-inline-block tm-result-time">
+                <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">Start</span>
+		            <span class="tm-result-fratil">23:13</span>
+	            </span>
+                <span class="tm-result-time-divider"></span>
+                 <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">End</span>
+		            <span class="tm-result-fratil">23:20</span>
+	            </span>
+            </span>
+
+            <span class="tm-inline-block tm-result-details-extra">
+                <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Duration</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">0:07</span>
+                </span>
+                 <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Changes</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">-</span>
+                </span>
+
+            </span>
+
+
+
+
+            <span class="tm-result-details-obs-wrap">
+
+            </span>
+        </span>
+
+
+        <span class="ui-helper-hidden-accessible">(Itinerary)</span>
+
+        <span class="tm-det-wrapper tm-alpha8">
+            <span class="tm-det tm-det-first tm-det-last">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">23:13</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">22</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Lagunen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dortledhaugen (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+        </span>
+    </h3>
+    </a>
+</div>
+
+<div class="tm-result-content tm-result-content-hide" id="tm-result0-content" data-tm-resultnum="0">
+    <div class="tm-result-content-tabs" data-tm-printpreview-options='{"BodySelector": ".ui-tabs-panel","PrintText": "Print page"}'>
+
+            <ul class="tm-corner0 tm-border0">
+                <li aria-controls="tm-result0-details"><a href="#tm-result0-details"><span>Itinerary</span></a></li>
+            </ul>
+            <a href="#" class="ui-widget-header tm-result-printbutton">Print</a>
+            <a href="#" class="ui-widget-header tm-result-closebutton">Close</a>
+
+        <div id="tm-result0-details">
+            <h4 class="ui-helper-hidden-accessible">Itinerary from Dortledhaugen (Bergen) to Lagunen terminal I (Bergen) <span class="tm-print-dato"><span class="tm-printer-fratil">23:13 - 23:20</span> Monday 22 February 2016</span></h4>
+            <div id="tm-result0-sidebar">
+                <ol class="tm-tripmenu-div ui-helper-clearfix ui-helper-reset">
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip0-change0">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">22</span> <span class="tm-tripmenu-mot tm-alpha6">to Lagunen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">A</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">23:13</span>
+                <span class="tm-tripmenu-item-hpl">Dortledhaugen (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">23:20</span>
+                <span class="tm-tripmenu-item-hpl">Lagunen terminal I (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  7 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=28200&amp;starthpl=12017664&amp;stophpl=12017693&amp;startdate=22.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:A%7C60.301165,5.304391&amp;markers=color:red%7Clabel:B%7C60.298008,5.327965&amp;path=color:0x0000ff|weight:5|60.301165,5.304391|60.300128,5.309760|60.297108,5.319138|60.298031,5.325192|60.301107,5.327563|60.298008,5.327965|60.298008,5.327965&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+                </ol>
+            </div>
+            <div class="tm-map tm-result-mapdiv" id="tm-result0-mapdiv"
+                data-tm-map-options='{"SideBarId":"tm-result0-sidebar", "BaseCenterY":60.388642,"BaseCenterX":5.332081,"BaseCenterZoom":9, "ResultId": 1740624288, "SideBarWidth": "300px", "DefaultTripId":0, "AddSidebar": true, "TripData": {"i":[{"y":60.301165,"x":5.304391,"v":12017664,"t":1,"p":0,"n":"Dortledhaugen (Bergen)","l":"22","i":0,"d":"22.02.2016 23:13:00","a":"22.02.2016 23:20:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":1,"nd":"Lagunen terminal","n2":"Lagunen terminal I (Bergen)"},{"y":60.300128,"x":5.30976,"v":12017666,"t":1,"p":0,"n":"Tunesflaten (Bergen)","l":"22","i":0,"d":"22.02.2016 23:14:00","a":"22.02.2016 23:14:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.297108,"x":5.319138,"v":12017668,"t":1,"p":0,"n":"Storheia (Bergen)","l":"22","i":0,"d":"22.02.2016 23:15:00","a":"22.02.2016 23:15:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.298031,"x":5.325192,"v":12017670,"t":1,"p":0,"n":"Rå skole (Bergen)","l":"22","i":0,"d":"22.02.2016 23:16:00","a":"22.02.2016 23:16:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.301107,"x":5.327563,"v":12017672,"t":1,"p":0,"n":"Søråsskiftet (Bergen)","l":"22","i":0,"d":"22.02.2016 23:17:00","a":"22.02.2016 23:17:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.298008,"x":5.327965,"v":12017693,"t":1,"p":0,"n":"Lagunen terminal I (Bergen)","l":"","i":0,"d":"30.12.1899","a":"22.02.2016 23:20:00","tt":0,"tp":"Buss.GIF","tn":"","ti":"","td":0,"pt":3,"nd":"","n2":""}],"changecount":0,"duration":7,"start":"22.02.2016 23:13:00","stop":"22.02.2016 23:20:00","tripnum":0}}'></div>
+        </div>
+    </div>
+ </div>
+
+ </div><div class="tm-result-svardag tm-result-top tm-alpha">
+    <h2 class="tm-svardag-header">Tuesday 23 February 2016</h2>
+</div>
+<div class="tm-result-wrapper">
+<div class="tm-result-header ui-state-default ui-helper-clearfix" style="position:relative">
+    <a href="#tm-result1-content" class="tm-result-link">
+    <h3  class="ui-helper-reset">
+        <span class="ui-widget-content tm-block-a">
+            <span class="tm-result-toggle ui-icon ui-icon-plus"></span>
+        </span>
+         <span class="tm-block-b">
+
+
+            <span class="tm-inline-block tm-result-time">
+                <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">Start</span>
+		            <span class="tm-result-fratil">00:13</span>
+	            </span>
+                <span class="tm-result-time-divider"></span>
+                 <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">End</span>
+		            <span class="tm-result-fratil">00:20</span>
+	            </span>
+            </span>
+
+            <span class="tm-inline-block tm-result-details-extra">
+                <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Duration</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">0:07</span>
+                </span>
+                 <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Changes</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">-</span>
+                </span>
+
+            </span>
+
+
+
+
+            <span class="tm-result-details-obs-wrap">
+
+            </span>
+        </span>
+
+
+        <span class="ui-helper-hidden-accessible">(Itinerary)</span>
+
+        <span class="tm-det-wrapper tm-alpha8">
+            <span class="tm-det tm-det-first tm-det-last">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">00:13</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">22</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Lagunen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dortledhaugen (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+        </span>
+    </h3>
+    </a>
+</div>
+
+<div class="tm-result-content tm-result-content-hide" id="tm-result1-content" data-tm-resultnum="1">
+    <div class="tm-result-content-tabs" data-tm-printpreview-options='{"BodySelector": ".ui-tabs-panel","PrintText": "Print page"}'>
+
+            <ul class="tm-corner0 tm-border0">
+                <li aria-controls="tm-result1-details"><a href="#tm-result1-details"><span>Itinerary</span></a></li>
+            </ul>
+            <a href="#" class="ui-widget-header tm-result-printbutton">Print</a>
+            <a href="#" class="ui-widget-header tm-result-closebutton">Close</a>
+
+        <div id="tm-result1-details">
+            <h4 class="ui-helper-hidden-accessible">Itinerary from Dortledhaugen (Bergen) to Lagunen terminal I (Bergen) <span class="tm-print-dato"><span class="tm-printer-fratil">00:13 - 00:20</span> Tuesday 23 February 2016</span></h4>
+            <div id="tm-result1-sidebar">
+                <ol class="tm-tripmenu-div ui-helper-clearfix ui-helper-reset">
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip1-change0">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">22</span> <span class="tm-tripmenu-mot tm-alpha6">to Lagunen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">A</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">00:13</span>
+                <span class="tm-tripmenu-item-hpl">Dortledhaugen (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">00:20</span>
+                <span class="tm-tripmenu-item-hpl">Lagunen terminal I (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  7 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=28832&amp;starthpl=12017664&amp;stophpl=12017693&amp;startdate=22.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:A%7C60.301165,5.304391&amp;markers=color:red%7Clabel:B%7C60.298008,5.327965&amp;path=color:0x0000ff|weight:5|60.301165,5.304391|60.300128,5.309760|60.297108,5.319138|60.298031,5.325192|60.301107,5.327563|60.298008,5.327965|60.298008,5.327965&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+                </ol>
+            </div>
+            <div class="tm-map tm-result-mapdiv" id="tm-result1-mapdiv"
+                data-tm-map-options='{"SideBarId":"tm-result1-sidebar", "BaseCenterY":60.388642,"BaseCenterX":5.332081,"BaseCenterZoom":9, "ResultId": 1740624288, "SideBarWidth": "300px", "DefaultTripId":1, "AddSidebar": true, "TripData": {"i":[{"y":60.301165,"x":5.304391,"v":12017664,"t":1,"p":0,"n":"Dortledhaugen (Bergen)","l":"22","i":0,"d":"23.02.2016 00:13:00","a":"23.02.2016 00:20:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":1,"nd":"Lagunen terminal","n2":"Lagunen terminal I (Bergen)"},{"y":60.300128,"x":5.30976,"v":12017666,"t":1,"p":0,"n":"Tunesflaten (Bergen)","l":"22","i":0,"d":"23.02.2016 00:14:00","a":"23.02.2016 00:14:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.297108,"x":5.319138,"v":12017668,"t":1,"p":0,"n":"Storheia (Bergen)","l":"22","i":0,"d":"23.02.2016 00:15:00","a":"23.02.2016 00:15:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.298031,"x":5.325192,"v":12017670,"t":1,"p":0,"n":"Rå skole (Bergen)","l":"22","i":0,"d":"23.02.2016 00:16:00","a":"23.02.2016 00:16:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.301107,"x":5.327563,"v":12017672,"t":1,"p":0,"n":"Søråsskiftet (Bergen)","l":"22","i":0,"d":"23.02.2016 00:17:00","a":"23.02.2016 00:17:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.298008,"x":5.327965,"v":12017693,"t":1,"p":0,"n":"Lagunen terminal I (Bergen)","l":"","i":0,"d":"30.12.1899","a":"23.02.2016 00:20:00","tt":0,"tp":"Buss.GIF","tn":"","ti":"","td":0,"pt":3,"nd":"","n2":""}],"changecount":0,"duration":7,"start":"23.02.2016 00:13:00","stop":"23.02.2016 00:20:00","tripnum":1}}'></div>
+        </div>
+    </div>
+ </div>
+
+ </div><div class="tm-result-wrapper">
+<div class="tm-result-header ui-state-default ui-helper-clearfix" style="position:relative">
+    <a href="#tm-result2-content" class="tm-result-link">
+    <h3  class="ui-helper-reset">
+        <span class="ui-widget-content tm-block-a">
+            <span class="tm-result-toggle ui-icon ui-icon-plus"></span>
+        </span>
+         <span class="tm-block-b">
+
+
+            <span class="tm-inline-block tm-result-time">
+                <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">Start</span>
+		            <span class="tm-result-fratil">05:35</span>
+	            </span>
+                <span class="tm-result-time-divider"></span>
+                 <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">End</span>
+		            <span class="tm-result-fratil">06:13</span>
+	            </span>
+            </span>
+
+            <span class="tm-inline-block tm-result-details-extra">
+                <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Duration</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">0:38</span>
+                </span>
+                 <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Changes</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">1</span>
+                </span>
+
+            </span>
+
+
+
+
+            <span class="tm-result-details-obs-wrap">
+
+            </span>
+        </span>
+
+
+        <span class="ui-helper-hidden-accessible">(Itinerary)</span>
+
+        <span class="tm-det-wrapper tm-alpha8">
+            <span class="tm-det tm-det-first ">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">05:35</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">22</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Oasen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dortledhaugen (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+<span class="tm-det  ">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">05:43</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-gaa"></span>
+            <span class="tm-icon-text">Walking</span>
+        </span>
+        <span class="tm-det-text">Walk</span>
+        <span class="tm-det-transport">
+
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dolvik terminal A (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+<span class="tm-det  tm-det-last">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">06:01</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">54</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Lagunen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dolvik terminal B (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+        </span>
+    </h3>
+    </a>
+</div>
+
+<div class="tm-result-content tm-result-content-hide" id="tm-result2-content" data-tm-resultnum="2">
+    <div class="tm-result-content-tabs" data-tm-printpreview-options='{"BodySelector": ".ui-tabs-panel","PrintText": "Print page"}'>
+
+            <ul class="tm-corner0 tm-border0">
+                <li aria-controls="tm-result2-details"><a href="#tm-result2-details"><span>Itinerary</span></a></li>
+            </ul>
+            <a href="#" class="ui-widget-header tm-result-printbutton">Print</a>
+            <a href="#" class="ui-widget-header tm-result-closebutton">Close</a>
+
+        <div id="tm-result2-details">
+            <h4 class="ui-helper-hidden-accessible">Itinerary from Dortledhaugen (Bergen) to Lagunen terminal I (Bergen) <span class="tm-print-dato"><span class="tm-printer-fratil">05:35 - 06:13</span> Tuesday 23 February 2016</span></h4>
+            <div id="tm-result2-sidebar">
+                <ol class="tm-tripmenu-div ui-helper-clearfix ui-helper-reset">
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip2-change0">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">22</span> <span class="tm-tripmenu-mot tm-alpha6">to Oasen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">A</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">05:35</span>
+                <span class="tm-tripmenu-item-hpl">Dortledhaugen (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">05:43</span>
+                <span class="tm-tripmenu-item-hpl">Dolvik terminal A (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  8 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=774&amp;starthpl=12017641&amp;stophpl=12017648&amp;startdate=23.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:A%7C60.300934,5.303529&amp;markers=color:red%7Clabel:B%7C60.308731,5.268625&amp;path=color:0x0000ff|weight:5|60.300934,5.303529|60.299462,5.300671|60.301054,5.298481|60.306347,5.299059|60.310143,5.295621|60.313383,5.289673|60.314405,5.283469|60.309392,5.274890|60.308731,5.268625|60.308731,5.268625&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip2-change1">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-gaa"></span>
+                <span class="tm-icon-text">Walking</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+                <span class="tm-walktext">Walk</span>
+
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">05:43</span>
+                <span class="tm-tripmenu-item-hpl">Dolvik terminal A (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">C</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">05:44</span>
+                <span class="tm-tripmenu-item-hpl">Dolvik terminal B (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+
+                <span class="tm-tripmenu-walktimetext">Walk  1 min.</span>
+
+                <span class="tm-tripmenu-ventetid">wait <span class="tm-tripmenu-ventetid-label"> 17 min.</span></span>
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:B%7C60.308731,5.268625&amp;markers=color:red%7Clabel:C%7C60.308540,5.269516&amp;path=color:0x0000ff|weight:5|60.308731,5.268625|60.308540,5.269516|60.308540,5.269516&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip2-change2">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">54</span> <span class="tm-tripmenu-mot tm-alpha6">to Lagunen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">C</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">06:01</span>
+                <span class="tm-tripmenu-item-hpl">Dolvik terminal B (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">D</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">06:13</span>
+                <span class="tm-tripmenu-item-hpl">Lagunen terminal I (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  12 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=1195&amp;starthpl=12017649&amp;stophpl=12017693&amp;startdate=23.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:C%7C60.308540,5.269516&amp;markers=color:red%7Clabel:D%7C60.298008,5.327965&amp;path=color:0x0000ff|weight:5|60.308540,5.269516|60.310092,5.275807|60.308881,5.280075|60.304727,5.281309|60.301658,5.287581|60.297121,5.288947|60.291312,5.285641|60.290512,5.290132|60.291799,5.313742|60.293424,5.322740|60.298008,5.327965|60.298008,5.327965&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+                </ol>
+            </div>
+            <div class="tm-map tm-result-mapdiv" id="tm-result2-mapdiv"
+                data-tm-map-options='{"SideBarId":"tm-result2-sidebar", "BaseCenterY":60.388642,"BaseCenterX":5.332081,"BaseCenterZoom":9, "ResultId": 1740624288, "SideBarWidth": "300px", "DefaultTripId":2, "AddSidebar": true, "TripData": {"i":[{"y":60.300934,"x":5.303529,"v":12017641,"t":1,"p":0,"n":"Dortledhaugen (Bergen)","l":"22","i":0,"d":"23.02.2016 05:35:00","a":"23.02.2016 05:43:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":1,"nd":"Oasen terminal","n2":"Dolvik terminal A (Bergen)"},{"y":60.299462,"x":5.300671,"v":12017617,"t":1,"p":0,"n":"Indre Steinsvik (Bergen)","l":"22","i":0,"d":"23.02.2016 05:36:00","a":"23.02.2016 05:36:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.301054,"x":5.298481,"v":12017619,"t":1,"p":0,"n":"Austre Steinsvikåsen (Bergen)","l":"22","i":0,"d":"23.02.2016 05:37:00","a":"23.02.2016 05:37:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.306347,"x":5.299059,"v":12017621,"t":1,"p":0,"n":"Steinsvikneset (Bergen)","l":"22","i":0,"d":"23.02.2016 05:38:00","a":"23.02.2016 05:38:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.310143,"x":5.295621,"v":12017623,"t":1,"p":0,"n":"Søvik (Bergen)","l":"22","i":0,"d":"23.02.2016 05:39:00","a":"23.02.2016 05:39:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.313383,"x":5.289673,"v":12017625,"t":1,"p":0,"n":"Søvikgeilen (Bergen)","l":"22","i":0,"d":"23.02.2016 05:40:00","a":"23.02.2016 05:40:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.314405,"x":5.283469,"v":12017627,"t":1,"p":0,"n":"Markaneset (Bergen)","l":"22","i":0,"d":"23.02.2016 05:41:00","a":"23.02.2016 05:41:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.309392,"x":5.27489,"v":12017629,"t":1,"p":0,"n":"Dolvikhaugene (Bergen)","l":"22","i":0,"d":"23.02.2016 05:42:00","a":"23.02.2016 05:42:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.308731,"x":5.268625,"v":12017648,"t":1,"p":0,"n":"Dolvik terminal A (Bergen)","l":"","i":0,"d":"23.02.2016 05:43:00","a":"23.02.2016 05:44:00","tt":-1,"tp":"Gaa.GIF","tn":"Gange","ti":"t_walk.gif","td":1,"pt":2,"nd":"Svortland","n2":"Dolvik terminal B (Bergen)"},{"y":60.30854,"x":5.269516,"v":12017649,"t":1,"p":17,"n":"Dolvik terminal B (Bergen)","l":"54","i":0,"d":"23.02.2016 06:01:00","a":"23.02.2016 06:13:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":12,"pt":2,"nd":"Lagunen terminal","n2":"Lagunen terminal I (Bergen)"},{"y":60.310092,"x":5.275807,"v":12017650,"t":1,"p":0,"n":"Dolvikhaugene (Bergen)","l":"54","i":0,"d":"23.02.2016 06:02:00","a":"23.02.2016 06:02:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":12,"pt":4,"nd":"","n2":""},{"y":60.308881,"x":5.280075,"v":12017634,"t":1,"p":0,"n":"Eldsbakkane (Bergen)","l":"54","i":0,"d":"23.02.2016 06:03:00","a":"23.02.2016 06:03:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":12,"pt":4,"nd":"","n2":""},{"y":60.304727,"x":5.281309,"v":12017636,"t":1,"p":0,"n":"Fanatorget (Bergen)","l":"54","i":0,"d":"23.02.2016 06:04:00","a":"23.02.2016 06:04:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":12,"pt":4,"nd":"","n2":""},{"y":60.301658,"x":5.287581,"v":12017638,"t":1,"p":0,"n":"Petedalsheia (Bergen)","l":"54","i":0,"d":"23.02.2016 06:05:00","a":"23.02.2016 06:05:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":12,"pt":4,"nd":"","n2":""},{"y":60.297121,"x":5.288947,"v":12017640,"t":1,"p":0,"n":"Statoil, Sandslivegen (Bergen)","l":"54","i":0,"d":"23.02.2016 06:06:00","a":"23.02.2016 06:06:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":12,"pt":4,"nd":"","n2":""},{"y":60.291312,"x":5.285641,"v":12017642,"t":1,"p":0,"n":"Sandslikrysset (Bergen)","l":"54","i":0,"d":"23.02.2016 06:08:00","a":"23.02.2016 06:08:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":12,"pt":4,"nd":"","n2":""},{"y":60.290512,"x":5.290132,"v":12016657,"t":1,"p":0,"n":"Håvardstun (Bergen)","l":"54","i":0,"d":"23.02.2016 06:08:00","a":"23.02.2016 06:08:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":12,"pt":4,"nd":"","n2":""},{"y":60.291799,"x":5.313742,"v":12016659,"t":1,"p":0,"n":"Meyerskiftet (Bergen)","l":"54","i":0,"d":"23.02.2016 06:11:00","a":"23.02.2016 06:11:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":12,"pt":4,"nd":"","n2":""},{"y":60.293424,"x":5.32274,"v":12016661,"t":1,"p":0,"n":"Rådal (Bergen)","l":"54","i":0,"d":"23.02.2016 06:12:00","a":"23.02.2016 06:12:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":12,"pt":4,"nd":"","n2":""},{"y":60.298008,"x":5.327965,"v":12017693,"t":1,"p":0,"n":"Lagunen terminal I (Bergen)","l":"","i":0,"d":"30.12.1899","a":"23.02.2016 06:13:00","tt":0,"tp":"Buss.GIF","tn":"","ti":"","td":0,"pt":3,"nd":"","n2":""}],"changecount":1,"duration":38,"start":"23.02.2016 05:35:00","stop":"23.02.2016 06:13:00","tripnum":2}}'></div>
+        </div>
+    </div>
+ </div>
+
+ </div><div class="tm-result-wrapper">
+<div class="tm-result-header ui-state-default ui-helper-clearfix" style="position:relative">
+    <a href="#tm-result3-content" class="tm-result-link">
+    <h3  class="ui-helper-reset">
+        <span class="ui-widget-content tm-block-a">
+            <span class="tm-result-toggle ui-icon ui-icon-plus"></span>
+        </span>
+         <span class="tm-block-b">
+
+
+            <span class="tm-inline-block tm-result-time">
+                <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">Start</span>
+		            <span class="tm-result-fratil">06:21</span>
+	            </span>
+                <span class="tm-result-time-divider"></span>
+                 <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">End</span>
+		            <span class="tm-result-fratil">06:27</span>
+	            </span>
+            </span>
+
+            <span class="tm-inline-block tm-result-details-extra">
+                <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Duration</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">0:06</span>
+                </span>
+                 <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Changes</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">-</span>
+                </span>
+
+            </span>
+
+
+
+
+            <span class="tm-result-details-obs-wrap">
+
+            </span>
+        </span>
+
+
+        <span class="ui-helper-hidden-accessible">(Itinerary)</span>
+
+        <span class="tm-det-wrapper tm-alpha8">
+            <span class="tm-det tm-det-first tm-det-last">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">06:21</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">22</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Lagunen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dortledhaugen (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+        </span>
+    </h3>
+    </a>
+</div>
+
+<div class="tm-result-content tm-result-content-hide" id="tm-result3-content" data-tm-resultnum="3">
+    <div class="tm-result-content-tabs" data-tm-printpreview-options='{"BodySelector": ".ui-tabs-panel","PrintText": "Print page"}'>
+
+            <ul class="tm-corner0 tm-border0">
+                <li aria-controls="tm-result3-details"><a href="#tm-result3-details"><span>Itinerary</span></a></li>
+            </ul>
+            <a href="#" class="ui-widget-header tm-result-printbutton">Print</a>
+            <a href="#" class="ui-widget-header tm-result-closebutton">Close</a>
+
+        <div id="tm-result3-details">
+            <h4 class="ui-helper-hidden-accessible">Itinerary from Dortledhaugen (Bergen) to Lagunen terminal I (Bergen) <span class="tm-print-dato"><span class="tm-printer-fratil">06:21 - 06:27</span> Tuesday 23 February 2016</span></h4>
+            <div id="tm-result3-sidebar">
+                <ol class="tm-tripmenu-div ui-helper-clearfix ui-helper-reset">
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip3-change0">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">22</span> <span class="tm-tripmenu-mot tm-alpha6">to Lagunen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">A</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">06:21</span>
+                <span class="tm-tripmenu-item-hpl">Dortledhaugen (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">06:27</span>
+                <span class="tm-tripmenu-item-hpl">Lagunen terminal I (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  6 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=1146&amp;starthpl=12017664&amp;stophpl=12017693&amp;startdate=23.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:A%7C60.301165,5.304391&amp;markers=color:red%7Clabel:B%7C60.298008,5.327965&amp;path=color:0x0000ff|weight:5|60.301165,5.304391|60.300128,5.309760|60.297108,5.319138|60.298031,5.325192|60.301107,5.327563|60.298008,5.327965|60.298008,5.327965&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+                </ol>
+            </div>
+            <div class="tm-map tm-result-mapdiv" id="tm-result3-mapdiv"
+                data-tm-map-options='{"SideBarId":"tm-result3-sidebar", "BaseCenterY":60.388642,"BaseCenterX":5.332081,"BaseCenterZoom":9, "ResultId": 1740624288, "SideBarWidth": "300px", "DefaultTripId":3, "AddSidebar": true, "TripData": {"i":[{"y":60.301165,"x":5.304391,"v":12017664,"t":1,"p":0,"n":"Dortledhaugen (Bergen)","l":"22","i":0,"d":"23.02.2016 06:21:00","a":"23.02.2016 06:27:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":1,"nd":"Lagunen terminal","n2":"Lagunen terminal I (Bergen)"},{"y":60.300128,"x":5.30976,"v":12017666,"t":1,"p":0,"n":"Tunesflaten (Bergen)","l":"22","i":0,"d":"23.02.2016 06:23:00","a":"23.02.2016 06:23:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.297108,"x":5.319138,"v":12017668,"t":1,"p":0,"n":"Storheia (Bergen)","l":"22","i":0,"d":"23.02.2016 06:24:00","a":"23.02.2016 06:24:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.298031,"x":5.325192,"v":12017670,"t":1,"p":0,"n":"Rå skole (Bergen)","l":"22","i":0,"d":"23.02.2016 06:25:00","a":"23.02.2016 06:25:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.301107,"x":5.327563,"v":12017672,"t":1,"p":0,"n":"Søråsskiftet (Bergen)","l":"22","i":0,"d":"23.02.2016 06:26:00","a":"23.02.2016 06:26:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.298008,"x":5.327965,"v":12017693,"t":1,"p":0,"n":"Lagunen terminal I (Bergen)","l":"","i":0,"d":"30.12.1899","a":"23.02.2016 06:27:00","tt":0,"tp":"Buss.GIF","tn":"","ti":"","td":0,"pt":3,"nd":"","n2":""}],"changecount":0,"duration":6,"start":"23.02.2016 06:21:00","stop":"23.02.2016 06:27:00","tripnum":3}}'></div>
+        </div>
+    </div>
+ </div>
+
+ </div><div class="tm-result-wrapper">
+<div class="tm-result-header ui-state-default ui-helper-clearfix" style="position:relative">
+    <a href="#tm-result4-content" class="tm-result-link">
+    <h3  class="ui-helper-reset">
+        <span class="ui-widget-content tm-block-a">
+            <span class="tm-result-toggle ui-icon ui-icon-plus"></span>
+        </span>
+         <span class="tm-block-b">
+
+
+            <span class="tm-inline-block tm-result-time">
+                <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">Start</span>
+		            <span class="tm-result-fratil">06:36</span>
+	            </span>
+                <span class="tm-result-time-divider"></span>
+                 <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">End</span>
+		            <span class="tm-result-fratil">06:42</span>
+	            </span>
+            </span>
+
+            <span class="tm-inline-block tm-result-details-extra">
+                <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Duration</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">0:06</span>
+                </span>
+                 <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Changes</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">-</span>
+                </span>
+
+            </span>
+
+
+
+
+            <span class="tm-result-details-obs-wrap">
+
+            </span>
+        </span>
+
+
+        <span class="ui-helper-hidden-accessible">(Itinerary)</span>
+
+        <span class="tm-det-wrapper tm-alpha8">
+            <span class="tm-det tm-det-first tm-det-last">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">06:36</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">22</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Lagunen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dortledhaugen (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+        </span>
+    </h3>
+    </a>
+</div>
+
+<div class="tm-result-content tm-result-content-hide" id="tm-result4-content" data-tm-resultnum="4">
+    <div class="tm-result-content-tabs" data-tm-printpreview-options='{"BodySelector": ".ui-tabs-panel","PrintText": "Print page"}'>
+
+            <ul class="tm-corner0 tm-border0">
+                <li aria-controls="tm-result4-details"><a href="#tm-result4-details"><span>Itinerary</span></a></li>
+            </ul>
+            <a href="#" class="ui-widget-header tm-result-printbutton">Print</a>
+            <a href="#" class="ui-widget-header tm-result-closebutton">Close</a>
+
+        <div id="tm-result4-details">
+            <h4 class="ui-helper-hidden-accessible">Itinerary from Dortledhaugen (Bergen) to Lagunen terminal I (Bergen) <span class="tm-print-dato"><span class="tm-printer-fratil">06:36 - 06:42</span> Tuesday 23 February 2016</span></h4>
+            <div id="tm-result4-sidebar">
+                <ol class="tm-tripmenu-div ui-helper-clearfix ui-helper-reset">
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip4-change0">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">22</span> <span class="tm-tripmenu-mot tm-alpha6">to Lagunen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">A</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">06:36</span>
+                <span class="tm-tripmenu-item-hpl">Dortledhaugen (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">06:42</span>
+                <span class="tm-tripmenu-item-hpl">Lagunen terminal I (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  6 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=1422&amp;starthpl=12017664&amp;stophpl=12017693&amp;startdate=23.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:A%7C60.301165,5.304391&amp;markers=color:red%7Clabel:B%7C60.298008,5.327965&amp;path=color:0x0000ff|weight:5|60.301165,5.304391|60.300128,5.309760|60.297108,5.319138|60.298031,5.325192|60.301107,5.327563|60.298008,5.327965|60.298008,5.327965&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+                </ol>
+            </div>
+            <div class="tm-map tm-result-mapdiv" id="tm-result4-mapdiv"
+                data-tm-map-options='{"SideBarId":"tm-result4-sidebar", "BaseCenterY":60.388642,"BaseCenterX":5.332081,"BaseCenterZoom":9, "ResultId": 1740624288, "SideBarWidth": "300px", "DefaultTripId":4, "AddSidebar": true, "TripData": {"i":[{"y":60.301165,"x":5.304391,"v":12017664,"t":1,"p":0,"n":"Dortledhaugen (Bergen)","l":"22","i":0,"d":"23.02.2016 06:36:00","a":"23.02.2016 06:42:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":1,"nd":"Lagunen terminal","n2":"Lagunen terminal I (Bergen)"},{"y":60.300128,"x":5.30976,"v":12017666,"t":1,"p":0,"n":"Tunesflaten (Bergen)","l":"22","i":0,"d":"23.02.2016 06:38:00","a":"23.02.2016 06:38:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.297108,"x":5.319138,"v":12017668,"t":1,"p":0,"n":"Storheia (Bergen)","l":"22","i":0,"d":"23.02.2016 06:39:00","a":"23.02.2016 06:39:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.298031,"x":5.325192,"v":12017670,"t":1,"p":0,"n":"Rå skole (Bergen)","l":"22","i":0,"d":"23.02.2016 06:40:00","a":"23.02.2016 06:40:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.301107,"x":5.327563,"v":12017672,"t":1,"p":0,"n":"Søråsskiftet (Bergen)","l":"22","i":0,"d":"23.02.2016 06:41:00","a":"23.02.2016 06:41:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.298008,"x":5.327965,"v":12017693,"t":1,"p":0,"n":"Lagunen terminal I (Bergen)","l":"","i":0,"d":"30.12.1899","a":"23.02.2016 06:42:00","tt":0,"tp":"Buss.GIF","tn":"","ti":"","td":0,"pt":3,"nd":"","n2":""}],"changecount":0,"duration":6,"start":"23.02.2016 06:36:00","stop":"23.02.2016 06:42:00","tripnum":4}}'></div>
+        </div>
+    </div>
+ </div>
+
+ </div><div class="tm-result-wrapper">
+<div class="tm-result-header ui-state-default ui-helper-clearfix" style="position:relative">
+    <a href="#tm-result5-content" class="tm-result-link">
+    <h3  class="ui-helper-reset">
+        <span class="ui-widget-content tm-block-a">
+            <span class="tm-result-toggle ui-icon ui-icon-plus"></span>
+        </span>
+         <span class="tm-block-b">
+
+
+            <span class="tm-inline-block tm-result-time">
+                <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">Start</span>
+		            <span class="tm-result-fratil">06:51</span>
+	            </span>
+                <span class="tm-result-time-divider"></span>
+                 <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">End</span>
+		            <span class="tm-result-fratil">06:57</span>
+	            </span>
+            </span>
+
+            <span class="tm-inline-block tm-result-details-extra">
+                <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Duration</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">0:06</span>
+                </span>
+                 <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Changes</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">-</span>
+                </span>
+
+            </span>
+
+
+
+
+            <span class="tm-result-details-obs-wrap">
+
+            </span>
+        </span>
+
+
+        <span class="ui-helper-hidden-accessible">(Itinerary)</span>
+
+        <span class="tm-det-wrapper tm-alpha8">
+            <span class="tm-det tm-det-first tm-det-last">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">06:51</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">22</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Lagunen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dortledhaugen (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+        </span>
+    </h3>
+    </a>
+</div>
+
+<div class="tm-result-content tm-result-content-hide" id="tm-result5-content" data-tm-resultnum="5">
+    <div class="tm-result-content-tabs" data-tm-printpreview-options='{"BodySelector": ".ui-tabs-panel","PrintText": "Print page"}'>
+
+            <ul class="tm-corner0 tm-border0">
+                <li aria-controls="tm-result5-details"><a href="#tm-result5-details"><span>Itinerary</span></a></li>
+            </ul>
+            <a href="#" class="ui-widget-header tm-result-printbutton">Print</a>
+            <a href="#" class="ui-widget-header tm-result-closebutton">Close</a>
+
+        <div id="tm-result5-details">
+            <h4 class="ui-helper-hidden-accessible">Itinerary from Dortledhaugen (Bergen) to Lagunen terminal I (Bergen) <span class="tm-print-dato"><span class="tm-printer-fratil">06:51 - 06:57</span> Tuesday 23 February 2016</span></h4>
+            <div id="tm-result5-sidebar">
+                <ol class="tm-tripmenu-div ui-helper-clearfix ui-helper-reset">
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip5-change0">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">22</span> <span class="tm-tripmenu-mot tm-alpha6">to Lagunen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">A</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">06:51</span>
+                <span class="tm-tripmenu-item-hpl">Dortledhaugen (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">06:57</span>
+                <span class="tm-tripmenu-item-hpl">Lagunen terminal I (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  6 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=1753&amp;starthpl=12017664&amp;stophpl=12017693&amp;startdate=23.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:A%7C60.301165,5.304391&amp;markers=color:red%7Clabel:B%7C60.298008,5.327965&amp;path=color:0x0000ff|weight:5|60.301165,5.304391|60.300128,5.309760|60.297108,5.319138|60.298031,5.325192|60.301107,5.327563|60.298008,5.327965|60.298008,5.327965&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+                </ol>
+            </div>
+            <div class="tm-map tm-result-mapdiv" id="tm-result5-mapdiv"
+                data-tm-map-options='{"SideBarId":"tm-result5-sidebar", "BaseCenterY":60.388642,"BaseCenterX":5.332081,"BaseCenterZoom":9, "ResultId": 1740624288, "SideBarWidth": "300px", "DefaultTripId":5, "AddSidebar": true, "TripData": {"i":[{"y":60.301165,"x":5.304391,"v":12017664,"t":1,"p":0,"n":"Dortledhaugen (Bergen)","l":"22","i":0,"d":"23.02.2016 06:51:00","a":"23.02.2016 06:57:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":1,"nd":"Lagunen terminal","n2":"Lagunen terminal I (Bergen)"},{"y":60.300128,"x":5.30976,"v":12017666,"t":1,"p":0,"n":"Tunesflaten (Bergen)","l":"22","i":0,"d":"23.02.2016 06:53:00","a":"23.02.2016 06:53:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.297108,"x":5.319138,"v":12017668,"t":1,"p":0,"n":"Storheia (Bergen)","l":"22","i":0,"d":"23.02.2016 06:54:00","a":"23.02.2016 06:54:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.298031,"x":5.325192,"v":12017670,"t":1,"p":0,"n":"Rå skole (Bergen)","l":"22","i":0,"d":"23.02.2016 06:55:00","a":"23.02.2016 06:55:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.301107,"x":5.327563,"v":12017672,"t":1,"p":0,"n":"Søråsskiftet (Bergen)","l":"22","i":0,"d":"23.02.2016 06:56:00","a":"23.02.2016 06:56:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":6,"pt":4,"nd":"","n2":""},{"y":60.298008,"x":5.327965,"v":12017693,"t":1,"p":0,"n":"Lagunen terminal I (Bergen)","l":"","i":0,"d":"30.12.1899","a":"23.02.2016 06:57:00","tt":0,"tp":"Buss.GIF","tn":"","ti":"","td":0,"pt":3,"nd":"","n2":""}],"changecount":0,"duration":6,"start":"23.02.2016 06:51:00","stop":"23.02.2016 06:57:00","tripnum":5}}'></div>
+        </div>
+    </div>
+ </div>
+
+ </div><div class="tm-result-wrapper">
+<div class="tm-result-header ui-state-default ui-helper-clearfix" style="position:relative">
+    <a href="#tm-result6-content" class="tm-result-link">
+    <h3  class="ui-helper-reset">
+        <span class="ui-widget-content tm-block-a">
+            <span class="tm-result-toggle ui-icon ui-icon-plus"></span>
+        </span>
+         <span class="tm-block-b">
+
+
+            <span class="tm-inline-block tm-result-time">
+                <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">Start</span>
+		            <span class="tm-result-fratil">07:06</span>
+	            </span>
+                <span class="tm-result-time-divider"></span>
+                 <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">End</span>
+		            <span class="tm-result-fratil">07:13</span>
+	            </span>
+            </span>
+
+            <span class="tm-inline-block tm-result-details-extra">
+                <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Duration</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">0:07</span>
+                </span>
+                 <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Changes</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">-</span>
+                </span>
+
+            </span>
+
+
+
+
+            <span class="tm-result-details-obs-wrap">
+
+            </span>
+        </span>
+
+
+        <span class="ui-helper-hidden-accessible">(Itinerary)</span>
+
+        <span class="tm-det-wrapper tm-alpha8">
+            <span class="tm-det tm-det-first tm-det-last">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">07:06</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">22</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Lagunen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dortledhaugen (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+        </span>
+    </h3>
+    </a>
+</div>
+
+<div class="tm-result-content tm-result-content-hide" id="tm-result6-content" data-tm-resultnum="6">
+    <div class="tm-result-content-tabs" data-tm-printpreview-options='{"BodySelector": ".ui-tabs-panel","PrintText": "Print page"}'>
+
+            <ul class="tm-corner0 tm-border0">
+                <li aria-controls="tm-result6-details"><a href="#tm-result6-details"><span>Itinerary</span></a></li>
+            </ul>
+            <a href="#" class="ui-widget-header tm-result-printbutton">Print</a>
+            <a href="#" class="ui-widget-header tm-result-closebutton">Close</a>
+
+        <div id="tm-result6-details">
+            <h4 class="ui-helper-hidden-accessible">Itinerary from Dortledhaugen (Bergen) to Lagunen terminal I (Bergen) <span class="tm-print-dato"><span class="tm-printer-fratil">07:06 - 07:13</span> Tuesday 23 February 2016</span></h4>
+            <div id="tm-result6-sidebar">
+                <ol class="tm-tripmenu-div ui-helper-clearfix ui-helper-reset">
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip6-change0">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">22</span> <span class="tm-tripmenu-mot tm-alpha6">to Lagunen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">A</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">07:06</span>
+                <span class="tm-tripmenu-item-hpl">Dortledhaugen (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">07:13</span>
+                <span class="tm-tripmenu-item-hpl">Lagunen terminal I (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  7 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=2121&amp;starthpl=12017664&amp;stophpl=12017693&amp;startdate=23.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:A%7C60.301165,5.304391&amp;markers=color:red%7Clabel:B%7C60.298008,5.327965&amp;path=color:0x0000ff|weight:5|60.301165,5.304391|60.300128,5.309760|60.297108,5.319138|60.298031,5.325192|60.301107,5.327563|60.298008,5.327965|60.298008,5.327965&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+                </ol>
+            </div>
+            <div class="tm-map tm-result-mapdiv" id="tm-result6-mapdiv"
+                data-tm-map-options='{"SideBarId":"tm-result6-sidebar", "BaseCenterY":60.388642,"BaseCenterX":5.332081,"BaseCenterZoom":9, "ResultId": 1740624288, "SideBarWidth": "300px", "DefaultTripId":6, "AddSidebar": true, "TripData": {"i":[{"y":60.301165,"x":5.304391,"v":12017664,"t":1,"p":0,"n":"Dortledhaugen (Bergen)","l":"22","i":0,"d":"23.02.2016 07:06:00","a":"23.02.2016 07:13:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":1,"nd":"Lagunen terminal","n2":"Lagunen terminal I (Bergen)"},{"y":60.300128,"x":5.30976,"v":12017666,"t":1,"p":0,"n":"Tunesflaten (Bergen)","l":"22","i":0,"d":"23.02.2016 07:08:00","a":"23.02.2016 07:08:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.297108,"x":5.319138,"v":12017668,"t":1,"p":0,"n":"Storheia (Bergen)","l":"22","i":0,"d":"23.02.2016 07:09:00","a":"23.02.2016 07:09:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.298031,"x":5.325192,"v":12017670,"t":1,"p":0,"n":"Rå skole (Bergen)","l":"22","i":0,"d":"23.02.2016 07:10:00","a":"23.02.2016 07:10:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.301107,"x":5.327563,"v":12017672,"t":1,"p":0,"n":"Søråsskiftet (Bergen)","l":"22","i":0,"d":"23.02.2016 07:11:00","a":"23.02.2016 07:11:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":7,"pt":4,"nd":"","n2":""},{"y":60.298008,"x":5.327965,"v":12017693,"t":1,"p":0,"n":"Lagunen terminal I (Bergen)","l":"","i":0,"d":"30.12.1899","a":"23.02.2016 07:13:00","tt":0,"tp":"Buss.GIF","tn":"","ti":"","td":0,"pt":3,"nd":"","n2":""}],"changecount":0,"duration":7,"start":"23.02.2016 07:06:00","stop":"23.02.2016 07:13:00","tripnum":6}}'></div>
+        </div>
+    </div>
+ </div>
+
+ </div><div class="tm-result-wrapper">
+<div class="tm-result-header ui-state-default ui-helper-clearfix" style="position:relative">
+    <a href="#tm-result7-content" class="tm-result-link">
+    <h3  class="ui-helper-reset">
+        <span class="ui-widget-content tm-block-a">
+            <span class="tm-result-toggle ui-icon ui-icon-plus"></span>
+        </span>
+         <span class="tm-block-b">
+
+
+            <span class="tm-inline-block tm-result-time">
+                <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">Start</span>
+		            <span class="tm-result-fratil">07:22</span>
+	            </span>
+                <span class="tm-result-time-divider"></span>
+                 <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">End</span>
+		            <span class="tm-result-fratil">07:30</span>
+	            </span>
+            </span>
+
+            <span class="tm-inline-block tm-result-details-extra">
+                <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Duration</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">0:08</span>
+                </span>
+                 <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Changes</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">-</span>
+                </span>
+
+            </span>
+
+
+
+
+            <span class="tm-result-details-obs-wrap">
+
+            </span>
+        </span>
+
+
+        <span class="ui-helper-hidden-accessible">(Itinerary)</span>
+
+        <span class="tm-det-wrapper tm-alpha8">
+            <span class="tm-det tm-det-first tm-det-last">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">07:22</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">22</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Lagunen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dortledhaugen (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+        </span>
+    </h3>
+    </a>
+</div>
+
+<div class="tm-result-content tm-result-content-hide" id="tm-result7-content" data-tm-resultnum="7">
+    <div class="tm-result-content-tabs" data-tm-printpreview-options='{"BodySelector": ".ui-tabs-panel","PrintText": "Print page"}'>
+
+            <ul class="tm-corner0 tm-border0">
+                <li aria-controls="tm-result7-details"><a href="#tm-result7-details"><span>Itinerary</span></a></li>
+            </ul>
+            <a href="#" class="ui-widget-header tm-result-printbutton">Print</a>
+            <a href="#" class="ui-widget-header tm-result-closebutton">Close</a>
+
+        <div id="tm-result7-details">
+            <h4 class="ui-helper-hidden-accessible">Itinerary from Dortledhaugen (Bergen) to Lagunen terminal I (Bergen) <span class="tm-print-dato"><span class="tm-printer-fratil">07:22 - 07:30</span> Tuesday 23 February 2016</span></h4>
+            <div id="tm-result7-sidebar">
+                <ol class="tm-tripmenu-div ui-helper-clearfix ui-helper-reset">
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip7-change0">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">22</span> <span class="tm-tripmenu-mot tm-alpha6">to Lagunen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">A</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">07:22</span>
+                <span class="tm-tripmenu-item-hpl">Dortledhaugen (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">07:30</span>
+                <span class="tm-tripmenu-item-hpl">Lagunen terminal I (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  8 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=2560&amp;starthpl=12017664&amp;stophpl=12017693&amp;startdate=23.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:A%7C60.301165,5.304391&amp;markers=color:red%7Clabel:B%7C60.298008,5.327965&amp;path=color:0x0000ff|weight:5|60.301165,5.304391|60.300128,5.309760|60.297108,5.319138|60.298031,5.325192|60.301107,5.327563|60.298008,5.327965|60.298008,5.327965&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+                </ol>
+            </div>
+            <div class="tm-map tm-result-mapdiv" id="tm-result7-mapdiv"
+                data-tm-map-options='{"SideBarId":"tm-result7-sidebar", "BaseCenterY":60.388642,"BaseCenterX":5.332081,"BaseCenterZoom":9, "ResultId": 1740624288, "SideBarWidth": "300px", "DefaultTripId":7, "AddSidebar": true, "TripData": {"i":[{"y":60.301165,"x":5.304391,"v":12017664,"t":1,"p":0,"n":"Dortledhaugen (Bergen)","l":"22","i":0,"d":"23.02.2016 07:22:00","a":"23.02.2016 07:30:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":1,"nd":"Lagunen terminal","n2":"Lagunen terminal I (Bergen)"},{"y":60.300128,"x":5.30976,"v":12017666,"t":1,"p":0,"n":"Tunesflaten (Bergen)","l":"22","i":0,"d":"23.02.2016 07:23:00","a":"23.02.2016 07:23:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.297108,"x":5.319138,"v":12017668,"t":1,"p":0,"n":"Storheia (Bergen)","l":"22","i":0,"d":"23.02.2016 07:25:00","a":"23.02.2016 07:25:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.298031,"x":5.325192,"v":12017670,"t":1,"p":0,"n":"Rå skole (Bergen)","l":"22","i":0,"d":"23.02.2016 07:26:00","a":"23.02.2016 07:26:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.301107,"x":5.327563,"v":12017672,"t":1,"p":0,"n":"Søråsskiftet (Bergen)","l":"22","i":0,"d":"23.02.2016 07:27:00","a":"23.02.2016 07:27:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.298008,"x":5.327965,"v":12017693,"t":1,"p":0,"n":"Lagunen terminal I (Bergen)","l":"","i":0,"d":"30.12.1899","a":"23.02.2016 07:30:00","tt":0,"tp":"Buss.GIF","tn":"","ti":"","td":0,"pt":3,"nd":"","n2":""}],"changecount":0,"duration":8,"start":"23.02.2016 07:22:00","stop":"23.02.2016 07:30:00","tripnum":7}}'></div>
+        </div>
+    </div>
+ </div>
+
+ </div><div class="tm-result-wrapper">
+<div class="tm-result-header ui-state-default ui-helper-clearfix" style="position:relative">
+    <a href="#tm-result8-content" class="tm-result-link">
+    <h3  class="ui-helper-reset">
+        <span class="ui-widget-content tm-block-a">
+            <span class="tm-result-toggle ui-icon ui-icon-plus"></span>
+        </span>
+         <span class="tm-block-b">
+
+
+            <span class="tm-inline-block tm-result-time">
+                <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">Start</span>
+		            <span class="tm-result-fratil">07:32</span>
+	            </span>
+                <span class="tm-result-time-divider"></span>
+                 <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">End</span>
+		            <span class="tm-result-fratil">07:40</span>
+	            </span>
+            </span>
+
+            <span class="tm-inline-block tm-result-details-extra">
+                <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Duration</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">0:08</span>
+                </span>
+                 <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Changes</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">-</span>
+                </span>
+
+            </span>
+
+
+
+
+            <span class="tm-result-details-obs-wrap">
+
+            </span>
+        </span>
+
+
+        <span class="ui-helper-hidden-accessible">(Itinerary)</span>
+
+        <span class="tm-det-wrapper tm-alpha8">
+            <span class="tm-det tm-det-first tm-det-last">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">07:32</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">22</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Lagunen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dortledhaugen (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+        </span>
+    </h3>
+    </a>
+</div>
+
+<div class="tm-result-content tm-result-content-hide" id="tm-result8-content" data-tm-resultnum="8">
+    <div class="tm-result-content-tabs" data-tm-printpreview-options='{"BodySelector": ".ui-tabs-panel","PrintText": "Print page"}'>
+
+            <ul class="tm-corner0 tm-border0">
+                <li aria-controls="tm-result8-details"><a href="#tm-result8-details"><span>Itinerary</span></a></li>
+            </ul>
+            <a href="#" class="ui-widget-header tm-result-printbutton">Print</a>
+            <a href="#" class="ui-widget-header tm-result-closebutton">Close</a>
+
+        <div id="tm-result8-details">
+            <h4 class="ui-helper-hidden-accessible">Itinerary from Dortledhaugen (Bergen) to Lagunen terminal I (Bergen) <span class="tm-print-dato"><span class="tm-printer-fratil">07:32 - 07:40</span> Tuesday 23 February 2016</span></h4>
+            <div id="tm-result8-sidebar">
+                <ol class="tm-tripmenu-div ui-helper-clearfix ui-helper-reset">
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip8-change0">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">22</span> <span class="tm-tripmenu-mot tm-alpha6">to Lagunen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">A</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">07:32</span>
+                <span class="tm-tripmenu-item-hpl">Dortledhaugen (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">07:40</span>
+                <span class="tm-tripmenu-item-hpl">Lagunen terminal I (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  8 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=2843&amp;starthpl=12017664&amp;stophpl=12017693&amp;startdate=23.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:A%7C60.301165,5.304391&amp;markers=color:red%7Clabel:B%7C60.298008,5.327965&amp;path=color:0x0000ff|weight:5|60.301165,5.304391|60.300128,5.309760|60.297108,5.319138|60.298031,5.325192|60.301107,5.327563|60.298008,5.327965|60.298008,5.327965&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+                </ol>
+            </div>
+            <div class="tm-map tm-result-mapdiv" id="tm-result8-mapdiv"
+                data-tm-map-options='{"SideBarId":"tm-result8-sidebar", "BaseCenterY":60.388642,"BaseCenterX":5.332081,"BaseCenterZoom":9, "ResultId": 1740624288, "SideBarWidth": "300px", "DefaultTripId":8, "AddSidebar": true, "TripData": {"i":[{"y":60.301165,"x":5.304391,"v":12017664,"t":1,"p":0,"n":"Dortledhaugen (Bergen)","l":"22","i":0,"d":"23.02.2016 07:32:00","a":"23.02.2016 07:40:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":1,"nd":"Lagunen terminal","n2":"Lagunen terminal I (Bergen)"},{"y":60.300128,"x":5.30976,"v":12017666,"t":1,"p":0,"n":"Tunesflaten (Bergen)","l":"22","i":0,"d":"23.02.2016 07:33:00","a":"23.02.2016 07:33:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.297108,"x":5.319138,"v":12017668,"t":1,"p":0,"n":"Storheia (Bergen)","l":"22","i":0,"d":"23.02.2016 07:35:00","a":"23.02.2016 07:35:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.298031,"x":5.325192,"v":12017670,"t":1,"p":0,"n":"Rå skole (Bergen)","l":"22","i":0,"d":"23.02.2016 07:36:00","a":"23.02.2016 07:36:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.301107,"x":5.327563,"v":12017672,"t":1,"p":0,"n":"Søråsskiftet (Bergen)","l":"22","i":0,"d":"23.02.2016 07:37:00","a":"23.02.2016 07:37:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.298008,"x":5.327965,"v":12017693,"t":1,"p":0,"n":"Lagunen terminal I (Bergen)","l":"","i":0,"d":"30.12.1899","a":"23.02.2016 07:40:00","tt":0,"tp":"Buss.GIF","tn":"","ti":"","td":0,"pt":3,"nd":"","n2":""}],"changecount":0,"duration":8,"start":"23.02.2016 07:32:00","stop":"23.02.2016 07:40:00","tripnum":8}}'></div>
+        </div>
+    </div>
+ </div>
+
+ </div><div class="tm-result-wrapper">
+<div class="tm-result-header ui-state-default ui-helper-clearfix" style="position:relative">
+    <a href="#tm-result9-content" class="tm-result-link">
+    <h3  class="ui-helper-reset">
+        <span class="ui-widget-content tm-block-a">
+            <span class="tm-result-toggle ui-icon ui-icon-plus"></span>
+        </span>
+         <span class="tm-block-b">
+
+
+            <span class="tm-inline-block tm-result-time">
+                <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">Start</span>
+		            <span class="tm-result-fratil">07:42</span>
+	            </span>
+                <span class="tm-result-time-divider"></span>
+                 <span class="tm-result-time-wrapper">
+		            <span class="tm-alpha5 tm-result-info-label">End</span>
+		            <span class="tm-result-fratil">07:50</span>
+	            </span>
+            </span>
+
+            <span class="tm-inline-block tm-result-details-extra">
+                <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Duration</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">0:08</span>
+                </span>
+                 <span class="tm-inline-block tm-result-info">
+		                <span class="tm-alpha5 tm-result-info-label">Changes</span>
+		                    <span class="tm-result-detail-space">&nbsp;</span>
+                            <span class="tm-result-info-val">-</span>
+                </span>
+
+            </span>
+
+
+
+
+            <span class="tm-result-details-obs-wrap">
+
+            </span>
+        </span>
+
+
+        <span class="ui-helper-hidden-accessible">(Itinerary)</span>
+
+        <span class="tm-det-wrapper tm-alpha8">
+            <span class="tm-det tm-det-first tm-det-last">
+    <span class="tm-det-border">
+        <span class="ui-helper-hidden-accessible tm-det-time">07:42</span>
+        <span class="tm-trafficicon-outer tm-icon-only">
+            <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+            <span class="tm-icon-text">Bus</span>
+        </span>
+        <span class="tm-det-text"></span>
+        <span class="tm-det-transport">
+            <span class="tm-det-linenr">22</span> <span class="tm-det-mot tm-alpha6 ui-helper-hidden-accessible"><span>to</span> Lagunen terminal</span>
+        </span>
+        <span class="ui-helper-hidden-accessible tm-det-franavn">
+            <span class="tm-det-lblfrom">From</span> Dortledhaugen (Bergen)
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+        </span>
+    </h3>
+    </a>
+</div>
+
+<div class="tm-result-content tm-result-content-hide" id="tm-result9-content" data-tm-resultnum="9">
+    <div class="tm-result-content-tabs" data-tm-printpreview-options='{"BodySelector": ".ui-tabs-panel","PrintText": "Print page"}'>
+
+            <ul class="tm-corner0 tm-border0">
+                <li aria-controls="tm-result9-details"><a href="#tm-result9-details"><span>Itinerary</span></a></li>
+            </ul>
+            <a href="#" class="ui-widget-header tm-result-printbutton">Print</a>
+            <a href="#" class="ui-widget-header tm-result-closebutton">Close</a>
+
+        <div id="tm-result9-details">
+            <h4 class="ui-helper-hidden-accessible">Itinerary from Dortledhaugen (Bergen) to Lagunen terminal I (Bergen) <span class="tm-print-dato"><span class="tm-printer-fratil">07:42 - 07:50</span> Tuesday 23 February 2016</span></h4>
+            <div id="tm-result9-sidebar">
+                <ol class="tm-tripmenu-div ui-helper-clearfix ui-helper-reset">
+
+<li class="tm-tripmenu-item ui-helper-clearfix ui-state-default" data-tm-changeid="trip9-change0">
+<div class="tm-tripmenu-item-print">
+
+    <div class="tm-tripmenu-item-wrapper">
+        <h5 class="tm-tripmenu-item-header">
+            <span class="tm-trafficicon-outer tm-icon-only tm-icon-pos">
+                <span class="tm-trafficicon tm-sprite-trafficsprite tm-sprite-buss"></span>
+                <span class="tm-icon-text">Bus</span>
+            </span>
+            <span class="tm-tripmenu-item-activity">
+
+                <span class="tm-tripmenu-linenr">22</span> <span class="tm-tripmenu-mot tm-alpha6">to Lagunen terminal</span>
+            </span>
+        </h5>
+        <div class="tm-tripmenu-item-fratil">
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">A</span></span><span class="ui-helper-hidden-accessible">(Departure)</span>
+                <span class="tm-tripmenu-item-time">07:42</span>
+                <span class="tm-tripmenu-item-hpl">Dortledhaugen (Bergen)</span>
+            </p>
+
+            <p><span class="ui-helper-hidden tm-print-letter"><span class="tm-print-letter-border">B</span></span><span class="ui-helper-hidden-accessible">(Arrival)</span>
+                <span class="tm-tripmenu-item-time">07:50</span>
+                <span class="tm-tripmenu-item-hpl">Lagunen terminal I (Bergen)</span>
+            </p>
+
+
+        </div>
+         <div class="tm-tripmenu-item-note">
+
+
+        </div>
+        <div class="tm-tripmenu-item-info tm-alpha8">
+                <span class="tm-tripmenu-routetimetext">Duration  8 min.</span>
+
+                <span class="tm-tripmenu-tripurl"><span class="tm-tripmenu-passeringstider" style=""><a href="/scripts/travelmagic/TravelMagicWE.dll/turinfo?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;date=22.02.2016&amp;time=22%3A33&amp;now=1&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en&amp;trip=3147&amp;starthpl=12017664&amp;stophpl=12017693&amp;startdate=23.02.2016" class="tm-tripmenu-passeringstider-link">Show route details</a></span></span>
+
+        </div>
+
+
+    </div>
+    <div class="tm-tripmenu-imgsrc">
+        <div data-tm-imgsrc="//maps.googleapis.com/maps/api/staticmap?size=350x280&amp;&amp;markers=color:green%7Clabel:A%7C60.301165,5.304391&amp;markers=color:red%7Clabel:B%7C60.298008,5.327965&amp;path=color:0x0000ff|weight:5|60.301165,5.304391|60.300128,5.309760|60.297108,5.319138|60.298031,5.325192|60.301107,5.327563|60.298008,5.327965|60.298008,5.327965&amp;sensor=false"></div>
+    </div>
+</div>
+</li>
+
+                </ol>
+            </div>
+            <div class="tm-map tm-result-mapdiv" id="tm-result9-mapdiv"
+                data-tm-map-options='{"SideBarId":"tm-result9-sidebar", "BaseCenterY":60.388642,"BaseCenterX":5.332081,"BaseCenterZoom":9, "ResultId": 1740624288, "SideBarWidth": "300px", "DefaultTripId":9, "AddSidebar": true, "TripData": {"i":[{"y":60.301165,"x":5.304391,"v":12017664,"t":1,"p":0,"n":"Dortledhaugen (Bergen)","l":"22","i":0,"d":"23.02.2016 07:42:00","a":"23.02.2016 07:50:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":1,"nd":"Lagunen terminal","n2":"Lagunen terminal I (Bergen)"},{"y":60.300128,"x":5.30976,"v":12017666,"t":1,"p":0,"n":"Tunesflaten (Bergen)","l":"22","i":0,"d":"23.02.2016 07:43:00","a":"23.02.2016 07:43:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.297108,"x":5.319138,"v":12017668,"t":1,"p":0,"n":"Storheia (Bergen)","l":"22","i":0,"d":"23.02.2016 07:45:00","a":"23.02.2016 07:45:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.298031,"x":5.325192,"v":12017670,"t":1,"p":0,"n":"Rå skole (Bergen)","l":"22","i":0,"d":"23.02.2016 07:46:00","a":"23.02.2016 07:46:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.301107,"x":5.327563,"v":12017672,"t":1,"p":0,"n":"Søråsskiftet (Bergen)","l":"22","i":0,"d":"23.02.2016 07:47:00","a":"23.02.2016 07:47:00","tt":2,"tp":"Buss.GIF","tn":"Buss","ti":"t_bus.gif","td":8,"pt":4,"nd":"","n2":""},{"y":60.298008,"x":5.327965,"v":12017693,"t":1,"p":0,"n":"Lagunen terminal I (Bergen)","l":"","i":0,"d":"30.12.1899","a":"23.02.2016 07:50:00","tt":0,"tp":"Buss.GIF","tn":"","ti":"","td":0,"pt":3,"nd":"","n2":""}],"changecount":0,"duration":8,"start":"23.02.2016 07:42:00","stop":"23.02.2016 07:50:00","tripnum":9}}'></div>
+        </div>
+    </div>
+ </div>
+
+ </div>
+        <div class="clearing"></div>
+
+
+
+         <div class="tm-return-more tm-return-more-down ui-helper-reset">
+            <div class="tm-return-more-item">
+                <div class="tm-return-more-text"><a href="/scripts/travelmagic/TravelMagicWE.dll/svar?from=Dortledhaugen+(Bergen)&amp;to=Lagunen+(Bergen)&amp;direction=1&amp;Date=23.02.2016&amp;Time=07%3A42&amp;now=0&amp;changepenalty=1&amp;changepause=0&amp;GetTR=Buss,Ekspressbuss,Bybane&amp;through=&amp;throughpause=&amp;lang=en" class="tm-return-more-link">more</a></div>
+                    <div class="ui-state-default ui-corner-all tm-return-icon" title=".ui-icon-arrow-1-e">
+                        <span class="ui-icon ui-icon-arrow-1-e"></span>
+                    </div>
+
+                <div class="clearing"></div>
+            </div>
+        </div>
+
+        <div class="clearing"></div>
+
+
+
+        <div class="tm-reiseforslag-advarseler">
+            <div class="ui-state-highlight tm-reiseforslag-advarsel"><p class="tm-alpha8">The itinerary is in accordance with expected times of passing.</p><p class="tm-alpha8">Due to traffic and unforseen incidents, suggested connections may be unavailable.</p><p class="tm-alpha8">If correspondence is not specified, connections may not be guaranteed.</p></div>
+
+        </div>
+    </div>
+</div>
+
+<div id="footer" class="ui-widget ui-helper-clearfix">
+            <p class="tm-copyright">Utviklet og driftet av <a class="tm-popup" href="http://www.datagrafikk.no">DataGrafikk AS</a></p>
+
+        </div>
+    </div>
+</div>
+<script src="/js/jquery.js?3.0.3.6547" type="text/javascript"></script>
+    <script src="/js/jquery-ui.js?3.0.3.6547" type="text/javascript"></script>
+    <script src="/js/scripts.js?3.0.3.6547" type="text/javascript"></script>
+    <script src="/js/lang.en.js?3.0.3.6547" type="text/javascript" ></script>
+    <script type="text/javascript">
+    //<![CDATA[
+        (function ($) {
+            define('config', function () {
+                return {
+                    apiKey: "AIzaSyBLuEChEuTnYn8KZlLiiaQKfMOR_ZwTLwM"
+                };
+            });
+            require.config({
+                baseUrl: "/js",
+                urlArgs: "3.0.3.6547"
+            });
+
+            $(document).bind('travelmagicinit', function () {
+                $.tm.tmMap.defaults.ScriptUrl = "/scripts/travelmagic/TravelMagicWE.dll/";
+                $.tm.tmMap.defaults.ImageUrl = "/images/";
+                $.tm.tmMap.defaults.BaseCenterX = "5.332081";
+                $.tm.tmMap.defaults.BaseCenterY = "60.388642";
+                $.tm.tmMap.defaults.BaseCenterZoom = parseInt("9", 10);
+                $.tm.tmMap.defaults.UrlParams =
+                {
+                    lang: "en",
+                    theme: ""
+                };
+
+                $.tm.tmMap.resources[''] = { // Default resources
+                    SelectAsFromText: "Travel from...",
+                    SelectAsToText: "Travel to...",
+                    ErrorLocationLatLngText: "No stop or address available from this position.",
+                    ErrorLocationNameText: "No stop or address called %s."
+                };
+            });
+
+            $.datepicker.setDefaults({
+                dateFormat: 'dd.mm.yy',
+                minDate: "21.02.2016",
+                maxDate: "19.06.2016"
+            });
+        })(jQuery);
+    //]]>
+    </script>
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7732267-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<!-- Midlertidig fiks av bug med eksterne lenker -->
+<script type="text/javascript">
+    (function () {
+	$('.tm-turinfo-header2 a').filter(function() {
+        	return this.hostname && this.hostname !== location.hostname
+      	}).attr('target','_blank');
+    })();
+</script>
+    <script type="text/javascript">
+    //<![CDATA[
+    (function ($) {
+        var urlToPostTo = "*",
+            adjustHeight = null,
+            inIFrame = window.location !== window.parent.location;
+        if (urlToPostTo !== '' && inIFrame) {
+            if (Modernizr.postmessage) {
+                adjustHeight = function () {
+                    var lastHeight = 0;
+                    return function () {
+                        var height = document.body.clientHeight;
+                        if (height <756) {
+                            height = 756;
+                        }
+                        if (height !== lastHeight) {
+                            window.top.postMessage(height, urlToPostTo);
+                        }
+                        lastHeight = height;
+                    };
+                } ();
+                window.setInterval(adjustHeight, 100);
+            }
+            else {
+                $('<h2 class="tm-errorinfo-head ui-widget ui-state-error ui-corner-all"><span class="tm-errorinfo-icon ui-icon ui-icon-info"></span><span class="tm-errorinfo-msg">Your browser does not support using the travel planner in an IFrame. You can instead <a href="' + document.location + '" class="popup">open the travel planner in a new window</a>.</span><span style="display:block;clear:left"></span></h2>').prependTo('#header');
+            }
+        }
+    })(jQuery);
+    //]]>
+</script>
+</body>
+</html>
