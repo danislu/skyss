@@ -1,0 +1,12 @@
+{
+    // https://gist.github.com/cletusw/e01a85e399ab563b1236
+    // http://eslint.org/docs/rules/
+
+    "env": {
+        "node": true,
+        "mocha": true
+    },
+    "rules": {
+        "no-console": 0
+    }
+}
