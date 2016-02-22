@@ -1,1 +1,1 @@
-{"version":3,"sources":["run.js"],"names":[],"mappings":";;AAAA,QAAQ,GAAR,CAAY,SAAZ","file":"run.js","sourcesContent":["console.log('hei hei');\n"],"sourceRoot":"/source/"}
+{"version":3,"sources":["run.js"],"names":[],"mappings":";;;;AAEA,oBAAQ,oBAAa,YAAb,EAA2B,oBAAa,OAAb,CAAnC,CAAyD,IAAzD,CAA8D,UAAC,IAAD,EAAU;AACpE,YAAQ,GAAR,CAAY,IAAZ,EADoE;CAAV,CAA9D","file":"run.js","sourcesContent":["import { getData, HOLDEPLASSER } from './index';\n\ngetData(HOLDEPLASSER.Dortlehaugen, HOLDEPLASSER.Lagunen).then((data) => {\n    console.log(data);\n})\n"],"sourceRoot":"/source/"}
