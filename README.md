@@ -30,10 +30,6 @@ Test: `npm run test`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## Credits
-
-https://github.com/Starefossen/node-skyss
-
 ## Disclaimer
 
 Skyss is a registered trademark of Hordaland County Councile (Hordaland Fylkeskommune) which is not affiliated with this product. Content from the Skyss APIs may be copyrighted.
