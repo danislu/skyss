@@ -34,6 +34,10 @@ Test: `npm run test`
 
 Skyss is a registered trademark of Hordaland County Councile (Hordaland Fylkeskommune) which is not affiliated with this product. Content from the Skyss APIs may be copyrighted.
 
+## See also
+
+[node-skyss](https://github.com/Starefossen/node-skyss)
+
 ## License
 
 MIT
