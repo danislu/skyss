@@ -1,4 +1,5 @@
 import { expect } from 'chai';
+import { first, last } from 'lodash';
 import request from 'request';
 import proxyquire from 'proxyquire';
 import sinon from 'sinon';
@@ -36,8 +37,8 @@ describe('skyss tests', function() {
             .then(asyncCatch((data) => {
                 expect(data).be.a('array');
                 expect(data.length).to.equal(10);
-                expect(data[0]).to.include({ time: '12:51'});
-                expect(data[9]).to.include({ time: '15:41'});
+                expect(first(data)).to.include({ time: '12:51'});
+                expect(last(data)).to.include({ time: '15:41'});
             }, done)).catch((e)=>{
                 done(e);
             });
