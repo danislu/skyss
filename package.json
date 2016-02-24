@@ -34,6 +34,7 @@
     "sinon": "^1.17.3"
   },
   "dependencies": {
+    "express": "^4.13.4",
     "htmlparser2": "^3.9.0",
     "lodash": "^4.5.1",
     "moment": "^2.11.2",
