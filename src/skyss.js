@@ -1,36 +1,45 @@
-import http from 'http';
+import { get } from 'request';
+import moment from 'moment';
+import { first } from 'lodash';
+import { parseData } from './parser';
 
-export const HOLDEPLASSER = {
-    Danmarksplass: 'Danmarks plass (Bergen)',
-    Lagunen: 'Lagunen (Bergen)',
-    Dortlehaugen: 'Dortledhaugen (Bergen)'
-};
+const baseTravelMagicUrl = 'http://reiseplanlegger.skyss.no/scripts/travelmagic/TravelMagicWE.dll';
 
-export function getData(from, to){
-    const url = 'http://reiseplanlegger.skyss.no/scripts/travelmagic/TravelMagicWE.dll/' +
-        'svar?referrer=&lang=en&dep1=&theme=' +
-        `&from=${from}` +
-        `&to=${to}` +
-        '&Time=22%3A13&Date=22.02.2016' +
-        '&now=1' +
-        '&direction=1&search=Search&adv=1&GetTR0=1&GetTR1=1&GetTR5=1&through=&throughpause=&changepenalty=1&changepause=0&linjer=&destinations=';
+function getUrl({from1, to1, now = 1, buss = 1, expressbuss = 1, lang = 'en'}){
+    return `${baseTravelMagicUrl}/svar?referrer=&lang=${lang}&dep1=&theme=&from=${from1}&to=${to1}&Time=&Date=&now=${now}&direction=1&search=S%C3%B8k&GetTR0=${buss}&GetTR1=${expressbuss}&through=&throughpause=&changepenalty=1&changepause=0&linjer=&destinations=`;
+}
 
+export function getNextDeparture(options){
     return new Promise((resolve, reject) => {
-        http.get(url, (res) => {
-            let data = '';
-            res.on('data', (chunk)=>{
-                data += chunk;
-            });
-            res.on('end', () => {
-                resolve(data);
-            });
-        }, reject);
+        getDepartures(options).then((data) => {
+            resolve(first(data));
+        }).catch((e) => {
+            reject(e);
+        });
     });
 }
 
+export function getDepartures({from, to}){
+    return new Promise((resolve, reject) => {
+        var url = getUrl({
+            from1: encodeURIComponent(from),
+            to1: encodeURIComponent(to)
+        });
 
-
-
-/*
-http://reiseplanlegger.skyss.no/scripts/travelmagic/TravelMagicWE.dll/svar?lang=en&from=Dortledhaugen+%28Bergen%29&to=Lagunen+%28Bergen%29&now=1&direction=1&search=Search&adv=1&GetTR0=1&GetTR1=1&GetTR5=1&through=&throughpause=&changepenalty=1&changepause=0&linjer=&destinations=
-*/
+        get(url, (error, response, body) => {
+            if (!error && response.statusCode === 200) {
+                resolve(parseData(body).map((time) => {
+                    return {
+                        time,
+                        when: moment(time, 'hh:mm').fromNow()
+                    };
+                }));
+            } else {
+                reject({
+                    message: 'the error',
+                    error
+                });
+            }
+        });
+    });
+}

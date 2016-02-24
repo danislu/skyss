@@ -1,0 +1,1 @@
+{"version":3,"sources":["utils.js"],"names":[],"mappings":";;;;;AAAO,IAAM,sCAAe;AACxB,mBAAe,yBAAf;AACA,aAAS,kBAAT;AACA,mBAAe,wBAAf;CAHS","file":"utils.js","sourcesContent":["export const HOLDEPLASSER = {\r\n    Danmarksplass: 'Danmarks plass (Bergen)',\r\n    Lagunen: 'Lagunen (Bergen)',\r\n    Dortledhaugen: 'Dortledhaugen (Bergen)'\r\n};\r\n"],"sourceRoot":"/source/"}

@@ -1,5 +1,8 @@
+require('babel-core/register');
+
 const gulp = require('gulp');
 const gutil = require('gulp-util');
+const clean = require('gulp-clean');
 const babel = require('gulp-babel');
 const sourcemaps = require('gulp-sourcemaps');
 const mocha = require('gulp-mocha');
@@ -8,17 +11,24 @@ const eslint = require('gulp-eslint');
 const paths = {
     source: ['./src/**/*.js'],
     output: './lib',
-    tests: ['./lib/tests/**/*.js']
+    tests: ['./lib/tests/**/*.js'],
+    lintExcludes: ['!node_modules/**', '!./lib/**'],
+    clean: ['./lib/**/*.*']
+
 };
 
 gulp.task('lint', () => {
-    return gulp.src([...paths.source, '!node_modules/**', '!./lib/**'])
+    return gulp.src([...paths.source, ...paths.lintExcludes])
         .pipe(eslint())
-        .pipe(eslint.format())
-        .pipe(eslint.failAfterError());
+        .pipe(eslint.format());
 });
 
-gulp.task('build', ['lint'], (done) => {
+gulp.task('clean', ()=>{
+    return gulp.src(paths.clean)
+        .pipe(clean());
+});
+
+gulp.task('build', ['lint', 'clean'], (done) => {
     gulp.src(paths.source)
     	.pipe(sourcemaps.init())
         .pipe(babel({ presets: ['es2015'] }))
@@ -36,6 +46,6 @@ gulp.task('test', ['build'], () => {
         .pipe(mocha({ reporter: 'dot' }));
 });
 
-gulp.task('watch', ['test'], () => {
+gulp.task('watch', () => {
     return gulp.watch(paths.source, ['test']);
 });

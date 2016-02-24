@@ -1,71 +1,65 @@
 import htmlparser from 'htmlparser2';
 
-const DATE = 0;
-const START_TIME = 1;
-const END_TIME = 2;
-const DURATION = 3;
+export function parseData(data){
+    const tagName = 'span';
+    const attrValue1 = 'tm-inline-block tm-result-time';
+    const attrValue2 = 'tm-result-time-wrapper';
+    const attrValue3 = 'tm-result-fratil';
 
-class Value {
-    constructor(){
-        this.index = 0;
-    }
+    let depth = 0;
+    let getValue = false;
 
-    addValue(value){
-        switch (this.index) {
-            case DATE:
-                this.date = value;
-                break;
-            case START_TIME:
-                this.start = value;
-                break;
-            case END_TIME:
-                this.end = value;
-                break;
-            case DURATION:
-                this.dur = value;
-                break;
-            default:
-                break;
-        }
-        this.index++;
-    }
-}
+    let result = [];
 
-export function parseHtml(htmlData){
-    let readDate = false,
-        readStart = false,
-        readEnd = false,
-        readDur = false,
-        date, start, end, dur;
-
+    //    if (name === 'h2' && attr['class'] === 'tm-alpha tm-reiseforslag-header'){
     const parser = new htmlparser.Parser({
-        onopentag: (name, attr) => {
-            if (name === 'h2' && attr['class'] === 'tm-alpha tm-reiseforslag-header'){
-                readDate = true;
-            }
+        onopentag: (name, attribs) => {
 
+/*
+h2 class="tm-alpha tm-reiseforslag-header"
+    dato
+
+span class=tm-inline-block tm-result-time
+    span class=tm-result-time-wrapper
+        span class=tm-result-fratil
+            start tid
+        span class=tm-result-fratil
+            slutt tid
+        span class="tm-result-info-val"
+            duration
+        span class="tm-tripmenu-linenr"
+            linjeNo
+*/
+
+            if (name === tagName){
+                getValue = false;
+                switch (attribs['class']) {
+                    case attrValue1:
+                        depth = 1;
+                        break;
+                    case attrValue2:
+                        depth = (depth === 1) ? 2 : 0;
+                        break;
+                    case attrValue3:
+                        if (depth === 2){
+                            getValue = true;
+                            depth = 0;
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
         },
         ontext: (text) => {
-            if (readDate){
-                date = text;
-            } else if (readStart){
-                start = text;
-            } else if (readEnd){
-                end = text;
-            } else if (readDur){
-                dur = text;
+            if (getValue){
+                getValue = !getValue;
+                result.push(text);
             }
-
-            readDate = false;
-            readStart = false;
-            readEnd = false;
-            readDur = false;
-        },
-        onclosetag: (name) => {}
+        }
     });
-
-    parser.write(htmlData);
+    parser.write(data);
     parser.end();
 
-
+    return result;
 }
