@@ -16,7 +16,7 @@ describe('skyss tests', function() {
         mockdate.set(moment('12:30', 'hh:mm'));
 
         requestStub = sinon.stub(request, 'get');
-        skyss = proxyquire('./../skyss', { 'request': requestStub });
+        skyss = proxyquire('./../server/skyss', { 'request': requestStub });
 
         requestStub.callsArgWithAsync(1, false, {statusCode: 200}, testData);
     });
