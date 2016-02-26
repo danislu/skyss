@@ -1,5 +1,5 @@
 # Skyss thingy
-A simple node exress server that servers a Pebble watch app for telling when the next buss departs.
+A simple node exress server that servers a Pebble watch app for telling when my buss leaves in the morning.
 
 ## Installation
 - `git clone https://github.com/danislu/skyss.git`
