@@ -1,8 +1,10 @@
 import { get } from 'request';
-import moment from 'moment';
+//import moment from 'moment';
+import moment from 'moment-timezone';
 import { first } from 'lodash';
 import { parseData } from './parser';
 
+moment.locale('nb');
 const baseTravelMagicUrl = 'http://reiseplanlegger.skyss.no/scripts/travelmagic/TravelMagicWE.dll';
 
 function getUrl({from1, to1, now = 1, buss = 1, expressbuss = 1, lang = 'en'}){
@@ -31,7 +33,7 @@ export function getDepartures({from, to}){
                 resolve(parseData(body).map((time) => {
                     return {
                         time,
-                        when: moment(time, 'hh:mm').fromNow()
+                        when: moment.tz(time, 'hh:mm', 'Europe/Oslo').fromNow()
                     };
                 }));
             } else {
