@@ -1,4 +1,4 @@
-# Skyss thingy-ma-bob
+# Skyss thingy
 A simple node exress server that servers a Pebble watch app for telling when my buss leaves in the morning.
 
 ## Installation
