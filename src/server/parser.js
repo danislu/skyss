@@ -1,6 +1,6 @@
 import htmlparser from 'htmlparser2';
 
-export function parseData(data){
+export function parseHtmlData(data){
     const tagName = 'span';
     const attrValue1 = 'tm-inline-block tm-result-time';
     const attrValue2 = 'tm-result-time-wrapper';

@@ -11,19 +11,23 @@ const testData = readTestData('1.txt');
 
 describe('skyss tests', function() {
 
+    let sandbox;
     let skyss, requestStub;
-    before(function(){
+    beforeEach(function(){
+        sandbox = sinon.sandbox.create();
+
         mockdate.set(moment('12:30', 'hh:mm'));
 
-        requestStub = sinon.stub(request, 'get');
+        requestStub = sandbox.stub(request, 'get');
         skyss = proxyquire('./../server/skyss', { 'request': requestStub });
 
         requestStub.callsArgWithAsync(1, false, {statusCode: 200}, testData);
     });
 
-    after(function(){
+    afterEach(function(){
         mockdate.reset();
-        requestStub.reset();
+
+        sandbox.restore();
     });
 
     it('should find the next departure', function (done) {

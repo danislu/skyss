@@ -3,3 +3,5 @@ export const HOLDEPLASSER = {
     Lagunen: 'Lagunen (Bergen)',
     Dortledhaugen: 'Dortledhaugen (Bergen)'
 };
+
+export const baseTravelMagicUrl = 'http://reiseplanlegger.skyss.no/scripts/travelmagic/TravelMagicWE.dll';
