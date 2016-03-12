@@ -1,48 +1,54 @@
-import { get } from 'request';
-import moment from 'moment-timezone';
-import { first } from 'lodash';
-import { parseHtmlData } from './parser';
-export { getNextDeparturesFromGeoToLocation } from './travelmagic';
+import { baseTravelMagicUrl, getXmlToJson } from './utils';
 
-moment.locale('nb');
-const baseTravelMagicUrl = 'http://reiseplanlegger.skyss.no/scripts/travelmagic/TravelMagicWE.dll';
+function getNearestStop(from){
+    const {x,y} = from;
+    const maxdist = 250;
+    const url = `${baseTravelMagicUrl}/v1NearestStopsXML?y=${y}&x=${x}&maxdist=${maxdist}`;
 
-function getUrl({from1, to1, now = 1, buss = 1, expressbuss = 1, lang = 'en'}){
-    return `${baseTravelMagicUrl}/svar?referrer=&lang=${lang}&dep1=&theme=&from=${from1}&to=${to1}&Time=&Date=&now=${now}&direction=1&search=S%C3%B8k&GetTR0=${buss}&GetTR1=${expressbuss}&through=&throughpause=&changepenalty=1&changepause=0&linjer=&destinations=`;
+    return getXmlToJson(url, (result, resolve) => {
+
+        let value = '';
+        if (result.stages && result.stages.group && result.stages.group.length > 0){
+            value = result.stages.group[0].$.n;
+        }
+
+        resolve(value);
+    });
 }
 
+export function getNextDeparturesFromGeoToLocation(fromCoords, to){
+    return getNearestStop(fromCoords).then((value) => {
+        const url = `${baseTravelMagicUrl}/v1SearchXML?From=${value}&to=${to}&instant=1`;
 
-export function getNextDeparture(options){
-    return new Promise((resolve, reject) => {
-        getDepartures(options).then((data) => {
-            resolve(first(data));
-        }).catch((e) => {
-            reject(e);
+        return getXmlToJson(url, (result, resolve) => {
+            const trips = result.result.trips[0].trip;
+            const deps = trips.map((trip) => {
+                const { n, n2, nd, l, tn, td } = trip.i[0].$;
+                return {
+                    trip: trip.$,
+                    first: {
+                        from: n,
+                        to: n2,
+                        line_name: nd,
+                        line_no: l,
+                        kind: tn,
+                        travel_time: td
+                    }
+                };
+            }).filter(d => d.first.kind != 'Gange');
+
+            resolve(deps);
         });
     });
 }
 
-export function getDepartures({from, to}){
-    return new Promise((resolve, reject) => {
-        var url = getUrl({
-            from1: encodeURIComponent(from),
-            to1: encodeURIComponent(to)
-        });
 
-        get(url, (error, response, body) => {
-            if (!error && response.statusCode === 200) {
-                resolve(parseHtmlData(body).map((time) => {
-                    return {
-                        time,
-                        when: moment.tz(time, 'hh:mm', 'Europe/Oslo').fromNow()
-                    };
-                }));
-            } else {
-                reject({
-                    message: 'the error',
-                    error
-                });
-            }
-        });
+export function getSuggestions(filter){
+    const url = `${baseTravelMagicUrl}/v2LocationXML?filter=${filter}&type=1`;
+
+    return getXmlToJson(url, (result, resolve) => {
+        resolve(result.stages.i.map((i)=> i.$.n));
     });
+
+    //http://reiseplanlegger.skyss.no/scripts/travelmagic/TravelMagicWE.dll//v2LocationXML?filter=Danmarks plass&type=1
 }
