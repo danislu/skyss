@@ -1,0 +1,5 @@
+machine:
+    timezone:
+        Europe/Oslo
+    node:
+        version: 5.0.0
