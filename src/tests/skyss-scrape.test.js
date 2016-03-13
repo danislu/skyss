@@ -33,7 +33,7 @@ describe('skyss-scrape tests', function() {
     it('should find the next departure', function (done) {
         skyss.getNextDeparture({ from : 'whatever', to: 'whatever' })
             .then(asyncCatch((data) => {
-                expect(data).to.include({ time: '12:51'});
+                expect(data).to.include({ time: '12:51', when: 'om 21 minutter' });
             }, done))
             .catch(done);
     });
@@ -43,8 +43,8 @@ describe('skyss-scrape tests', function() {
             .then(asyncCatch((data) => {
                 expect(data).be.a('array');
                 expect(data.length).to.equal(10);
-                expect(first(data)).to.include({ time: '12:51'});
-                expect(last(data)).to.include({ time: '15:41'});
+                expect(first(data)).to.include({ time: '12:51', when: 'om 21 minutter' });
+                expect(last(data)).to.include({ time: '15:41', when: 'om 3 timer' });
             }, done))
             .catch(done);
     });

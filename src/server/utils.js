@@ -27,7 +27,11 @@ export function getXmlToJson(url, fn){
                     return;
                 }
 
-                fn(result, resolve, reject);
+                try {
+                    fn(result, resolve, reject);
+                } catch (e) {
+                    reject(e);
+                }
             });
         });
     });
