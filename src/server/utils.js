@@ -1,4 +1,4 @@
-import request from 'request';
+import { get } from 'request';
 import { parseString } from 'xml2js';
 
 export const HOLDEPLASSER = {
@@ -12,10 +12,7 @@ export const baseTravelMagicUrl = 'http://reiseplanlegger.skyss.no/scripts/trave
 
 export function getXmlToJson(url, fn){
     return new Promise((resolve, reject)=>{
-        request({
-            method: 'get',
-            uri: url
-        }, (error, response, body) => {
+        get(url, (error, response, body) => {
             if (error) {
                 reject(error);
                 return;

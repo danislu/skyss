@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<stages>
+    <group n="Dortledhaugen (Bergen)" d="79" m="2" x="5,30396" y="60,301049">
+        <i n="Dortledhaugen (Bergen)" v="12017641" t="1" d="88" m="2" x="5,303529" y="60,300934" tn="Buss" st="Buss.GIF" l="22"/>
+        <i n="Dortledhaugen (Bergen)" v="12017664" t="1" d="70" m="2" x="5,304391" y="60,301165" tn="Buss" st="Buss.GIF" l="22"/>
+    </group>
+    <group n="Tunesflaten (Bergen)" d="229" m="5" x="5,309049" y="60,30049">
+        <i n="Tunesflaten (Bergen)" v="12017639" t="1" d="188" m="4" x="5,308338" y="60,300853" tn="Buss" st="Buss.GIF" l="22"/>
+        <i n="Tunesflaten (Bergen)" v="12017666" t="1" d="270" m="5" x="5,30976" y="60,300128" tn="Buss" st="Buss.GIF" l="22"/>
+    </group>
+</stages>
