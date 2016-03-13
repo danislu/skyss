@@ -20,24 +20,30 @@ export function getNextDeparturesFromGeoToLocation(fromCoords, to){
     return getNearestStop(fromCoords).then((value) => {
         const url = `${baseTravelMagicUrl}/v1SearchXML?From=${value}&to=${to}&instant=1`;
 
-        return getXmlToJson(url, (result, resolve) => {
-            const trips = result.result.trips[0].trip;
-            const deps = trips.map((trip) => {
-                const { n, n2, nd, l, tn, td } = trip.i[0].$;
-                return {
-                    trip: trip.$,
-                    first: {
-                        from: n,
-                        to: n2,
-                        line_name: nd,
-                        line_no: l,
-                        kind: tn,
-                        travel_time: td
-                    }
-                };
-            }).filter(d => d.first.kind != 'Gange');
+        return getXmlToJson(url, (result, resolve, reject) => {
+            try {
 
-            resolve(deps);
+                const trips = result.result.trips[0].trip;
+                const deps = trips.map((trip) => {
+                    const { n, n2, nd, l, tn, td } = trip.i[0].$;
+                    return {
+                        trip: trip.$,
+                        first: {
+                            from: n,
+                            to: n2,
+                            line_name: nd,
+                            line_no: l,
+                            kind: tn,
+                            travel_time: td
+                        }
+                    };
+                }).filter(d => d.first.kind != 'Gange');
+
+                resolve(deps);
+            } catch (e) {
+                reject(e);
+            }
+
         });
     });
 }
