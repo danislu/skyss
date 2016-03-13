@@ -43,7 +43,6 @@ export function getNextDeparturesFromGeoToLocation(fromCoords, to){
             } catch (e) {
                 reject(e);
             }
-
         });
     });
 }

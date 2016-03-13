@@ -9,7 +9,7 @@ import request from 'request';
 import { expect } from 'chai';
 import { asyncCatch /*, readTestData */ } from './utils.test';
 import { parseString } from 'xml2js';
-import { getNextDeparturesFromGeoToLocation, getSuggestions } from './../server/skyss';
+import { /*getNextDeparturesFromGeoToLocation,*/ getSuggestions } from './../server/skyss';
 
 const latLng = {
     y: 60.3006106,
@@ -87,13 +87,13 @@ describe('testing travelmagic api', function() {
         });
     });
 
-    it('api test 1', function(done){
+    /*it('api test 1', function(done){
         return getNextDeparturesFromGeoToLocation(latLng, dkPlassStopName)
             .then(asyncCatch((value)=>{
                 expect(value.length).to.be.equal(10);
             }, done))
             .catch(done);
-    });
+    });*/
 
     it('test suggestions', function(done){
         return getSuggestions('Danmarks')
