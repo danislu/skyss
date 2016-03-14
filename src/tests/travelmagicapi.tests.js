@@ -15,7 +15,7 @@ const nearestStop = 'Dortledhaugen (Bergen)';
 const dkPlassStopName = 'Danmarks plass (Bergen)';
 const lagunenStopName = 'Lagunen (Bergen)';
 
-describe('testing travelmagic api', function() {
+ignore_describe('testing travelmagic api', function() {
 
     it('should get the nearest stops to this location', function(done){
         const url = `${baseUrl}/v1NearestStopsXML?y=${latLng.y}&x=${latLng.x}&maxdist=${maxdist}`;
