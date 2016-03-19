@@ -60,4 +60,18 @@ describe('asdf', function(){
             }, done))
             .catch(done);
     });
+
+    it('test it', function(done){
+        requestStub.onFirstCall().callsArgWithAsync(1, false, {statusCode: 200}, '<?xml version="1.0" encoding="UTF-8" ?><stages/>' );
+        return getNextDeparturesFromGeoToLocation({
+            x: 39.0437,
+            y: -77.4875
+        }, 'Lagunen')
+            .then(asyncCatch((v)=>{
+                throw { error: 'wtf' };
+            }, done))
+            .catch(asyncCatch((v)=>{
+                expect(v).to.include({ error: 'No stops found' });
+            },done));
+    });
 });

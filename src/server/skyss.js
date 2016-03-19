@@ -5,19 +5,21 @@ function getNearestStop(from){
     const maxdist = 250;
     const url = `${baseTravelMagicUrl}/v1NearestStopsXML?y=${y}&x=${x}&maxdist=${maxdist}`;
 
-    return getXmlToJson(url, (result, resolve) => {
+    return getXmlToJson(url, (result, resolve, reject) => {
         let value = '';
         if (result.stages && result.stages.group && result.stages.group.length > 0){
             value = result.stages.group[0].$.n;
+            resolve(value);
+        } else {
+            reject({ error: 'No stops found' });
         }
-
-        resolve(value);
     });
 }
 
 export function getNextDeparturesFromGeoToLocation(fromCoords, to){
     return getNearestStop(fromCoords).then((value) => {
         const url = `${baseTravelMagicUrl}/v1SearchXML?From=${value}&to=${to}&instant=1`;
+
         return getXmlToJson(url, (result, resolve) => {
             const trips = result.result.trips[0].trip;
             const deps = trips.map((trip) => {
