@@ -6,3 +6,5 @@
 60.300892
 
 Hhhjjhgh
+
+curl -H "Content-Type: application/json" --data '{"build": true}' -X POST https://registry.hub.docker.com/u/danislu/skyss/trigger/370a5918-f444-48cc-be1d-56a19bd5560a/

@@ -53,7 +53,7 @@ app.get('/', (req, res) => {
     log('service document fetched');
     res.json({
         departues: {
-            endpoint: '/departures2?from=<latLng>&to=<destination>',
+            endpoint: '/departures2?from_x=<x-coord>&from_y=<y-coord>&to=<destination>',
             description: 'get the next 10 departues from the nearest stop to the given position to the given destination.',
             parameters: [
                 {
