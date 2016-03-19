@@ -67,7 +67,7 @@ describe('asdf', function(){
             x: 39.0437,
             y: -77.4875
         }, 'Lagunen')
-            .then(asyncCatch((v)=>{
+            .then(asyncCatch(()=>{
                 throw { error: 'wtf' };
             }, done))
             .catch(asyncCatch((v)=>{
