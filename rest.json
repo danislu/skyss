@@ -1,0 +1,12 @@
+{ trip:
+   { duration: '35',
+     start: '13.03.2016 23:14:00',
+     stop: '13.03.2016 23:49:00',
+     changecount: '1' },
+  first:
+   { from: 'Dortledhaugen (Bergen)',
+     to: 'Lagunen terminal I (Bergen)',
+     line_name: 'Lagunen terminal',
+     line_no: '22',
+     kind: 'Buss',
+     travel_time: '6' } }

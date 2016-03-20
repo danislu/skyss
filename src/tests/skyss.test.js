@@ -46,6 +46,7 @@ describe('asdf', function(){
 
         return getNextDeparturesFromGeoToLocation(latLng, dkPlassStopName)
             .then(asyncCatch((value)=>{
+                //console.log(value[0]);
                 expect(value.length).to.be.equal(10);
             }, done))
             .catch(done);
