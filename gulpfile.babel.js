@@ -28,6 +28,17 @@ gulp.task('clean', ()=>{
         .pipe(clean());
 });
 
+gulp.task('prod-build', ['clean'], (done)=>{
+    gulp.src(paths.source)
+        .pipe(babel({ presets: ['es2015'] }))
+        .on('error', (e) => {
+            gutil.log(e);
+            done();
+        })
+        .pipe(gulp.dest(paths.output))
+        .on('end', done);
+});
+
 gulp.task('build', ['lint', 'clean'], (done) => {
     gulp.src(paths.source)
     	.pipe(sourcemaps.init())
