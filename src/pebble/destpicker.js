@@ -5,24 +5,31 @@ var init = function(options) {
     var destinations = options.destinations,
         destText = [],
         selectedIndex = 0,
-        i, dest, text;
+        i = 0, dest, text;
 
     var wind = new UI.Window({
         fullscreen: true
     });
 
+    wind.add(new UI.TimeText({
+        position: new Vector2(0, 10),
+        size: new Vector2(144, 20),
+        textAlign: 'center',
+        font: 'gothic-18',
+        text: '%X'
+    }));
+
     var getFont = function(index) {
-        return (index === selectedIndex)
-            ? 'gothic-18-bold'
-            : 'gothic-18';
+        return (index == selectedIndex) ? 'gothic-18-bold' : 'gothic-18';
     };
 
     for (i in destinations) {
         if (destinations.hasOwnProperty(i)) {
             dest = destinations[i];
             text = new UI.Text({
-                position: new Vector2(0, 10 + (20 * i)),
+                position: new Vector2(0, 50 + (20 * i)),
                 size: new Vector2(144, 20),
+                textOverflow: 'ellipsis',
                 font: getFont(i),
                 text: dest
             });

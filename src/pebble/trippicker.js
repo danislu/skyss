@@ -5,6 +5,8 @@ var init = function(options){
     var currentIndex = 0,
         bussData = options.data;
 
+    console.log('DATA: ' + JSON.stringify(bussData));
+
     var wind = new UI.Window({
         fullscreen: true
     });
