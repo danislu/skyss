@@ -1,4 +1,5 @@
-var ajax = require('ajax');
+var ajax = require('ajax'),
+    baseUrl = 'http://127.0.0.1';
 
 function getTheDate(destination, callback){
 
@@ -7,13 +8,11 @@ function getTheDate(destination, callback){
         callback(error, null);
     }
 
-    //b4dd20cd-cb21-4096-8c30-f15967b05e2c.node.dockerapp.io
-
     function onSuccess(position) {
         var latitude = position.coords.latitude;
         var longitude = position.coords.longitude;
 
-        var url = 'http://37.139.17.6/departures2?from_x=' + encodeURIComponent(longitude) + '&from_y=' + encodeURIComponent(latitude) + '&to=' + encodeURIComponent(destination);
+        var url = baseUrl + '/departures2?from_x=' + encodeURIComponent(longitude) + '&from_y=' + encodeURIComponent(latitude) + '&to=' + encodeURIComponent(destination);
         console.log(url);
 
         ajax({ url: url, type: 'json' }, function(data) {
@@ -25,5 +24,8 @@ function getTheDate(destination, callback){
 }
 
 module.exports = {
+    setApiRoot: function(url){
+        baseUrl = url;
+    },
     update: getTheDate
 };

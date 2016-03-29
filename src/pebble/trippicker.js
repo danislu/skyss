@@ -32,7 +32,7 @@ var init = function(options){
         size: new Vector2(144, 40),
         textAlign: 'center',
         font: 'gothic-18-bold',
-        text: 'Refreshing...'
+        text: 'This is not the trip you are looking for...'
     });
 
     var busstext2 = new UI.Text({
@@ -40,7 +40,7 @@ var init = function(options){
         size: new Vector2(144, 40),
         textAlign: 'center',
         font: 'gothic-18-bold',
-        text: 'dummy1'
+        text: '...'
     });
 
     wind.add(counter);
@@ -71,6 +71,9 @@ var init = function(options){
         counter.text((currentIndex+1) + ' ' + bussData.length);
 
         var tur = bussData[currentIndex];
+        if (!tur)
+            return;
+
         busstext1.text(tur.first.line_no + ' (' + tur.first.travel_time + '/' +  tur.trip.duration + 'min): ' + tur.first.from + ' - ' + tur.first.to );
         busstext2.text(tur.trip.start);
     };
