@@ -23,12 +23,12 @@ gulp.task('lint', () => {
         .pipe(eslint.format());
 });
 
-gulp.task('clean', ()=>{
+gulp.task('clean', () => {
     return gulp.src(paths.clean)
         .pipe(clean());
 });
 
-gulp.task('prod-build', ['clean'], (done)=>{
+gulp.task('prod-build', ['clean'], (done) => {
     gulp.src(paths.source)
         .pipe(babel({ presets: ['es2015'] }))
         .on('error', (e) => {
